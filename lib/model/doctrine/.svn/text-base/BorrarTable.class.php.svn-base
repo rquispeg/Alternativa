@@ -1,0 +1,6 @@
+<?php
+
+class BorrarTable extends Doctrine_Table
+{
+
+}

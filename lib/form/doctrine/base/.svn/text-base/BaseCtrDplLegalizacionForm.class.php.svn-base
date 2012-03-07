@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * CtrDplLegalizacion form base class.
+ *
+ * @method CtrDplLegalizacion getObject() Returns the current form's model object
+ *
+ * @package    alternativa
+ * @subpackage form
+ * @author     Ing. Ivan Callapa Quiroz
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseCtrDplLegalizacionForm extends BaseFormDoctrine
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'serie_id'           => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado'), 'add_empty' => false)),
+      'serie_alfanumerico' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_2'), 'add_empty' => false)),
+      'gestion_id'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_3'), 'add_empty' => false)),
+      'inscripcion_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_4'), 'add_empty' => false)),
+      'usuario_id'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuUsuario'), 'add_empty' => true)),
+      'fecha_legalizacion' => new sfWidgetFormDateTime(),
+      'id_legalizacion'    => new sfWidgetFormInputHidden(),
+    ));
+
+    $this->setValidators(array(
+      'serie_id'           => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado'))),
+      'serie_alfanumerico' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_2'))),
+      'gestion_id'         => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_3'))),
+      'inscripcion_id'     => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('CtrDplEntregado_4'))),
+      'usuario_id'         => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuUsuario'), 'required' => false)),
+      'fecha_legalizacion' => new sfValidatorDateTime(),
+      'id_legalizacion'    => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id_legalizacion', 'required' => false)),
+    ));
+
+    $this->widgetSchema->setNameFormat('ctr_dpl_legalizacion[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'CtrDplLegalizacion';
+  }
+
+}

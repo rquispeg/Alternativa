@@ -1,0 +1,1799 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/sieweb/!svn/ver/187/alternativa/lib/model/doctrine/base
+END
+BaseCtrRdeEstudiante2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeEstudiante2.class.php
+END
+BaseRelTraProcesoUsuario.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelTraProcesoUsuario.class.php
+END
+BaseClaLocalidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaLocalidad.class.php
+END
+BaseRelRolPermiso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelRolPermiso.class.php
+END
+BaseDatTraRegistro.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatTraRegistro.class.php
+END
+BaseTmpMateria.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpMateria.class.php
+END
+BaseReporteAlternativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseReporteAlternativa.class.php
+END
+BaseClaPais.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaPais.class.php
+END
+BaseDatAltModulos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatAltModulos.class.php
+END
+BaseDatUsuUsuario.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatUsuUsuario.class.php
+END
+BaseVisInscritos20092010.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVisInscritos20092010.class.php
+END
+BaseClaEtnia.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEtnia.class.php
+END
+BaseCtrDplEntregado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrDplEntregado.class.php
+END
+BaseClaTipoTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoTramite.class.php
+END
+BaseClaCerrada.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCerrada.class.php
+END
+BaseClaPeriodo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaPeriodo.class.php
+END
+BaseClaIdioma.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaIdioma.class.php
+END
+BaseSeqInscripcionGestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqInscripcionGestion.class.php
+END
+BaseVEstadisticaAlternativa2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEstadisticaAlternativa2011.class.php
+END
+BaseTskMsgUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTskMsgUnidadEducativa.class.php
+END
+BaseCtrPlaItems.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrPlaItems.class.php
+END
+BaseCtrConsolidadorsieweb.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrConsolidadorsieweb.class.php
+END
+BaseVisDplDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisDplDiplomas.class.php
+END
+BaseCtrRdeSerieConsistente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeSerieConsistente.class.php
+END
+BaseTskUsuTareas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTskUsuTareas.class.php
+END
+BaseCtrRdeExtemporaneoTecnica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeExtemporaneoTecnica.class.php
+END
+BaseRelAdministrativoItems.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelAdministrativoItems.class.php
+END
+BaseTmpDepuSimilitud.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDepuSimilitud.class.php
+END
+BaseHisRdeEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseHisRdeEstudiante.class.php
+END
+BaseClaFinanciamiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaFinanciamiento.class.php
+END
+BaseVEstadisticaAlternativaEta2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEstadisticaAlternativaEta2011.class.php
+END
+BaseCeaEstudiantesPrimer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCeaEstudiantesPrimer.class.php
+END
+BaseRelTraRequisitos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelTraRequisitos.class.php
+END
+BaseClaTransporte.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTransporte.class.php
+END
+BaseCeaEstudiantesSegundo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCeaEstudiantesSegundo.class.php
+END
+BaseSdatRdeInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatRdeInscripcion.class.php
+END
+BaseClaEdaEvento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaEvento.class.php
+END
+BaseDatRdeSocioEconomico.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeSocioEconomico.class.php
+END
+BaseTmpInscripciones2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseTmpInscripciones2011.class.php
+END
+BaseClaNivel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaNivel.class.php
+END
+BaseClasificadosIndividual.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClasificadosIndividual.class.php
+END
+BaseVisUesInfra.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisUesInfra.class.php
+END
+BaseClaCanton.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCanton.class.php
+END
+BaseClaDepartamento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDepartamento.class.php
+END
+BaseTmpSieDocente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpSieDocente.class.php
+END
+BaseDatRdeInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeInscripcion.class.php
+END
+BaseDatUsuPermiso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatUsuPermiso.class.php
+END
+BaseDatSlnEstudios.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnEstudios.class.php
+END
+BaseDatSieOfertaCurricular.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieOfertaCurricular.class.php
+END
+BaseVAlternativaAcreditacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVAlternativaAcreditacion.class.php
+END
+BaseVisClasificadosColectivosTiempo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisClasificadosColectivosTiempo.class.php
+END
+BaseDatSlnPlanestudios.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnPlanestudios.class.php
+END
+BaseVInscripcion2008.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVInscripcion2008.class.php
+END
+BaseDatRueNivel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueNivel.class.php
+END
+BaseDatUsuRol.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatUsuRol.class.php
+END
+BaseVisDatosEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisDatosEstudiante.class.php
+END
+BaseAuxdireccionviviendaestudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxdireccionviviendaestudiante.class.php
+END
+BaseTskUsuAsignacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTskUsuAsignacion.class.php
+END
+BaseErrOpeArchivos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseErrOpeArchivos.class.php
+END
+BaseClaAreaEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaAreaEspecial.class.php
+END
+BaseVAlternativaAcreditacionEta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVAlternativaAcreditacionEta.class.php
+END
+BaseAuxDplFormularioEntrega.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxDplFormularioEntrega.class.php
+END
+BaseSdatRdeInscripcionTmp.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatRdeInscripcionTmp.class.php
+END
+BaseClaCargo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCargo.class.php
+END
+BaseClaTipoPeriodo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoPeriodo.class.php
+END
+BaseCtrDplImpresion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrDplImpresion.class.php
+END
+BaseVEstadisticaAlternativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEstadisticaAlternativa.class.php
+END
+BaseClaDependencia.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDependencia.class.php
+END
+BaseClaCicloAcreditacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCicloAcreditacion.class.php
+END
+BaseRelDocenteOfertacurricular.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelDocenteOfertacurricular.class.php
+END
+BaseVisInformacionCeas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVisInformacionCeas.class.php
+END
+BaseClaParentesco.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaParentesco.class.php
+END
+BaseCtrRdeInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeInscripcion.class.php
+END
+BaseDatSlnFormal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnFormal.class.php
+END
+BaseClaTurno.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTurno.class.php
+END
+BaseTmpAudInscripciones2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseTmpAudInscripciones2011.class.php
+END
+BaseDatRdeEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeEstudiante.class.php
+END
+BaseClaEdaEquipamiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaEquipamiento.class.php
+END
+BaseClaDplValido.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDplValido.class.php
+END
+BaseVCertificacionRueAdultos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVCertificacionRueAdultos.class.php
+END
+BaseClaTraProceso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTraProceso.class.php
+END
+BaseSeqInscripcionTecnicaUeRango.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqInscripcionTecnicaUeRango.class.php
+END
+BaseVisClasificadosColectivos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVisClasificadosColectivos.class.php
+END
+BaseDatEdaMaterial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaMaterial.class.php
+END
+BaseDatEdaEvento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaEvento.class.php
+END
+BaseVisNotas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisNotas.class.php
+END
+BaseClaRiesgo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaRiesgo.class.php
+END
+BaseAuxCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxCurso.class.php
+END
+BaseTmpSecuencia.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpSecuencia.class.php
+END
+BaseCtrRdeFechaNacimiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeFechaNacimiento.class.php
+END
+BaseDatUsuGrupo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatUsuGrupo.class.php
+END
+BaseTmpDatSlnCursoOferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDatSlnCursoOferta.class.php
+END
+BaseHisRdeEstudianteIdioma.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseHisRdeEstudianteIdioma.class.php
+END
+BaseClaDplRecepcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDplRecepcion.class.php
+END
+BaseClaRequisitos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaRequisitos.class.php
+END
+BaseClaGestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaGestion.class.php
+END
+BaseClaEstadoProceso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstadoProceso.class.php
+END
+BaseAuxCurso1.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxCurso1.class.php
+END
+BaseDatNlcSeccionDistrito.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatNlcSeccionDistrito.class.php
+END
+BaseDatEspCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEspCurso.class.php
+END
+BaseVEstadisticasGestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEstadisticasGestion.class.php
+END
+BaseDatDplSerie.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatDplSerie.class.php
+END
+BaseHisSlnFormal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseHisSlnFormal.class.php
+END
+BaseCtrSlnFormal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSlnFormal.class.php
+END
+BaseAuxIns.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseAuxIns.class.php
+END
+BaseCtrRdeEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeEstudiante.class.php
+END
+BaseDatSieDocente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieDocente.class.php
+END
+BaseDatRueInscripcionTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueInscripcionTramite.class.php
+END
+BaseCtrRdeCambioGrado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeCambioGrado.class.php
+END
+BaseClaCircunscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCircunscripcion.class.php
+END
+BaseCtrUsuLogin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrUsuLogin.class.php
+END
+BaseDatSlnAlternativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnAlternativa.class.php
+END
+BaseVisNotasPais.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisNotasPais.class.php
+END
+BaseClaConvenios.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaConvenios.class.php
+END
+BaseRelUsuarioUe.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelUsuarioUe.class.php
+END
+BaseDatJueApoyo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatJueApoyo.class.php
+END
+BaseDatEdaMatricula.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaMatricula.class.php
+END
+BaseClaGrupoSanguineo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaGrupoSanguineo.class.php
+END
+BaseRelDocenteItems.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelDocenteItems.class.php
+END
+BaseAuxInscripciones.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxInscripciones.class.php
+END
+BaseDatSieAdministrativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieAdministrativo.class.php
+END
+BaseClaEspecialidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEspecialidad.class.php
+END
+BaseDatDplErrados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatDplErrados.class.php
+END
+BaseDatEdaMobiliario.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaMobiliario.class.php
+END
+BaseCtrRdeDuplicados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeDuplicados.class.php
+END
+BaseAudRueUnidadeducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseAudRueUnidadeducativa.class.php
+END
+BaseSdatRdeDatosapoderado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatRdeDatosapoderado.class.php
+END
+BaseClaMes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaMes.class.php
+END
+BaseClaTipoBachillerato.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoBachillerato.class.php
+END
+BaseDatTraTramitador.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatTraTramitador.class.php
+END
+BaseReporteAlternativaTecnica2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseReporteAlternativaTecnica2011.class.php
+END
+BaseTmpDepurados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDepurados.class.php
+END
+BaseDatRdeSocioEconomicoAux.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeSocioEconomicoAux.class.php
+END
+BaseViewName.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseViewName.class.php
+END
+BaseAuxDplLegalizacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxDplLegalizacion.class.php
+END
+BaseVisInformacionUe.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisInformacionUe.class.php
+END
+BaseCtrSlnCambioEstado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSlnCambioEstado.class.php
+END
+BaseTskUsuVerificacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTskUsuVerificacion.class.php
+END
+BaseCtrSlnCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSlnCurso.class.php
+END
+BaseVJuegos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVJuegos.class.php
+END
+BaseDatRdeApoderado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeApoderado.class.php
+END
+BaseClaDatosComponente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDatosComponente.class.php
+END
+BaseSdatRueUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatRueUnidadEducativa.class.php
+END
+BaseNotas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseNotas.class.php
+END
+BaseDatIfrUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatIfrUnidadEducativa.class.php
+END
+BaseDatSieOperativos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieOperativos.class.php
+END
+BaseDatRueCursoTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueCursoTramite.class.php
+END
+BaseTmpDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDiplomas.class.php
+END
+BaseTskMsgPortal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTskMsgPortal.class.php
+END
+BaseTmpDatUsuUsuario.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDatUsuUsuario.class.php
+END
+BaseClaEdaEstadoRecursos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaEstadoRecursos.class.php
+END
+BaseVEta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEta.class.php
+END
+BaseClaEstado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstado.class.php
+END
+BaseDatDplDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatDplDiplomas.class.php
+END
+BaseDatIfrDireccionGeografica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatIfrDireccionGeografica.class.php
+END
+BaseVCtrRdeSerie.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVCtrRdeSerie.class.php
+END
+BaseDatSlnAlternativa2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnAlternativa2.class.php
+END
+BaseTmpDepuradosDetalle.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpDepuradosDetalle.class.php
+END
+BaseClaSeccion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaSeccion.class.php
+END
+BaseVGrados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVGrados.class.php
+END
+BaseRelUsuarioGrupo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelUsuarioGrupo.class.php
+END
+BaseDatNclNucleo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatNclNucleo.class.php
+END
+BaseReporteAlternativa2010.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseReporteAlternativa2010.class.php
+END
+BaseVisClasificadosColectivosDistancia.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisClasificadosColectivosDistancia.class.php
+END
+BaseRelTraProceso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelTraProceso.class.php
+END
+BaseRelRdeEstudianteIdioma.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelRdeEstudianteIdioma.class.php
+END
+BaseDatOpeUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatOpeUnidadEducativa.class.php
+END
+BaseCtrRdeCodigoRude.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeCodigoRude.class.php
+END
+BaseViewUeCantidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseViewUeCantidad.class.php
+END
+BaseTmpTblInicio.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpTblInicio.class.php
+END
+BaseClaTipoFinanciamiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoFinanciamiento.class.php
+END
+BaseClaAcciones.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaAcciones.class.php
+END
+BaseDatRueFormularios.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueFormularios.class.php
+END
+BaseTmpTablaSiecliente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpTablaSiecliente.class.php
+END
+BaseSeqInscripcionUeRango.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqInscripcionUeRango.class.php
+END
+BaseVInscripcion2007.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVInscripcion2007.class.php
+END
+BaseTmpRdeEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpRdeEstudiante.class.php
+END
+BaseDatRdaDocentesadministrativos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdaDocentesadministrativos.class.php
+END
+BaseDatIfrJurisdiccionGeografica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatIfrJurisdiccionGeografica.class.php
+END
+BaseVRueEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVRueEspecial.class.php
+END
+BaseDatTraSeguimiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatTraSeguimiento.class.php
+END
+BaseClaArea.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaArea.class.php
+END
+BaseViewRue2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseViewRue2011.class.php
+END
+BaseDatUsuSistema.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatUsuSistema.class.php
+END
+BaseClaObservacionInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaObservacionInscripcion.class.php
+END
+BaseClaTraTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTraTramite.class.php
+END
+BaseClaPrueba.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaPrueba.class.php
+END
+BaseSdatSieDocente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatSieDocente.class.php
+END
+BaseClaTipoParametro.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoParametro.class.php
+END
+BaseVCodigosRudeNew.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVCodigosRudeNew.class.php
+END
+BaseDatJueInscritos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatJueInscritos.class.php
+END
+BaseSeqAsignacionGestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqAsignacionGestion.class.php
+END
+BaseDatRdeDiscapacidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeDiscapacidad.class.php
+END
+BaseClaInstruccion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaInstruccion.class.php
+END
+BaseCtrRdeExtemporaneoEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeExtemporaneoEspecial.class.php
+END
+BaseSeqInscripcionUe.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqInscripcionUe.class.php
+END
+BaseSdatSlnCursoOferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatSlnCursoOferta.class.php
+END
+BaseClaComponente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaComponente.class.php
+END
+BaseDatOpeArchivo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatOpeArchivo.class.php
+END
+BaseClaAsignaturaCiclo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaAsignaturaCiclo.class.php
+END
+BaseDatRdeInscripcionTecnica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeInscripcionTecnica.class.php
+END
+BaseDatSlnCursoOferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnCursoOferta.class.php
+END
+BaseCtrVisDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrVisDiplomas.class.php
+END
+BaseClaOrgCurricular.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaOrgCurricular.class.php
+END
+BaseDatRiesgos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRiesgos.class.php
+END
+BaseViewCantidad2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseViewCantidad2011.class.php
+END
+BaseTmpSieCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpSieCurso.class.php
+END
+BaseDatAltConsolidacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatAltConsolidacion.class.php
+END
+BaseHisRdeInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseHisRdeInscripcion.class.php
+END
+BaseTmpSieAdministrativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpSieAdministrativo.class.php
+END
+BaseSdatRdeSocioEconomico.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatRdeSocioEconomico.class.php
+END
+BaseDatJueClasificados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatJueClasificados.class.php
+END
+BaseClaDescripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDescripcion.class.php
+END
+BaseVisDplImpresos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisDplImpresos.class.php
+END
+BaseDatAltCursooferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatAltCursooferta.class.php
+END
+BaseDatDplLegalizacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatDplLegalizacion.class.php
+END
+BaseRelTraUsuarioProceso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelTraUsuarioProceso.class.php
+END
+BaseClaFormacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaFormacion.class.php
+END
+BaseDatRueUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueUnidadEducativa.class.php
+END
+BaseDatSlnFormal2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnFormal2.class.php
+END
+BaseSdatSieCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatSieCurso.class.php
+END
+BaseVEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEspecial.class.php
+END
+BaseDatAltCursoTecnica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatAltCursoTecnica.class.php
+END
+BaseClaGrado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaGrado.class.php
+END
+BaseClaAsignatura.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaAsignatura.class.php
+END
+BaseDatNlcLocalEducativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatNlcLocalEducativo.class.php
+END
+BaseVDiplomasImpresos2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVDiplomasImpresos2011.class.php
+END
+BaseClaTipoProceso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoProceso.class.php
+END
+BaseVisPorcentajeConsolidado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisPorcentajeConsolidado.class.php
+END
+BaseCtrRdeTraslados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeTraslados.class.php
+END
+BaseDatEdaEquipamiento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaEquipamiento.class.php
+END
+BaseRelTraSeguimientoRequisito.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseRelTraSeguimientoRequisito.class.php
+END
+BaseDatRdeInscripcionEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeInscripcionEspecial.class.php
+END
+BaseClaProvincia.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaProvincia.class.php
+END
+BaseCtrDplLegalizacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrDplLegalizacion.class.php
+END
+BaseClaOrigendiscapacidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaOrigendiscapacidad.class.php
+END
+BaseCtrDplTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrDplTramite.class.php
+END
+BaseVDiplomasEntregados2011.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVDiplomasEntregados2011.class.php
+END
+BaseVUnidadEducativaNivel.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVUnidadEducativaNivel.class.php
+END
+BaseClaTipoAdministracion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoAdministracion.class.php
+END
+BaseVInscripcion2009.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVInscripcion2009.class.php
+END
+BaseDatRdeEstudianteObservados.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeEstudianteObservados.class.php
+END
+BaseSeqSlnCursoOferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqSlnCursoOferta.class.php
+END
+BaseDatRdeInscripcionT.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseDatRdeInscripcionT.class.php
+END
+BaseClaEstadoDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstadoDiplomas.class.php
+END
+BaseCtrSlnFormal2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSlnFormal2.class.php
+END
+BaseDatEspDiscapacidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEspDiscapacidad.class.php
+END
+BaseTmpPrueba.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseTmpPrueba.class.php
+END
+BaseClaDisciplina.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDisciplina.class.php
+END
+BaseClaModalidadEnsenanza.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaModalidadEnsenanza.class.php
+END
+BaseClaDiscapacidad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaDiscapacidad.class.php
+END
+BaseClaCursoOferta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCursoOferta.class.php
+END
+BaseDatRdeDatosapoderado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeDatosapoderado.class.php
+END
+BasePrueba.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BasePrueba.class.php
+END
+BaseSeqOfertaGestion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSeqOfertaGestion.class.php
+END
+BaseDatRdeEstudianteNewRude.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRdeEstudianteNewRude.class.php
+END
+BaseAuxEstudiante.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxEstudiante.class.php
+END
+BaseDatSlnCursoOferta2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSlnCursoOferta2.class.php
+END
+BaseDatSieUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieUnidadEducativa.class.php
+END
+BaseDatSieCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieCurso.class.php
+END
+BaseDatRueUnidadEducativaTramite.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatRueUnidadEducativaTramite.class.php
+END
+BaseInscripcionesBorradas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseInscripcionesBorradas.class.php
+END
+BaseClaOperativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaOperativo.class.php
+END
+BaseDatSieDocenteadministrativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieDocenteadministrativo.class.php
+END
+BaseDatSieDistrito.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatSieDistrito.class.php
+END
+BaseDatIfrGestionUe.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatIfrGestionUe.class.php
+END
+BaseVisGestion2010.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisGestion2010.class.php
+END
+BaseClaMotivo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaMotivo.class.php
+END
+BaseClaEdaEstadoDesastre.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaEstadoDesastre.class.php
+END
+BaseClaTipoCargo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTipoCargo.class.php
+END
+BaseDatAltCursoofertaPeriodo_.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatAltCursoofertaPeriodo_.class.php
+END
+BaseDatEdaDocentes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatEdaDocentes.class.php
+END
+BaseClaEdaEstado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaEstado.class.php
+END
+BaseClaCiclo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaCiclo.class.php
+END
+BaseSdatSieAdministrativo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseSdatSieAdministrativo.class.php
+END
+BaseClaEstadoArchivo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstadoArchivo.class.php
+END
+BaseClaTablasParametricas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaTablasParametricas.class.php
+END
+BaseCtrSieUnidadEducativaConsolidado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSieUnidadEducativaConsolidado.class.php
+END
+BaseCtrRdeNormales.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeNormales.class.php
+END
+BaseAuxDplDiplomas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxDplDiplomas.class.php
+END
+BaseClaPlanEstudios.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaPlanEstudios.class.php
+END
+BaseTmpRdeInscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseTmpRdeInscripcion.class.php
+END
+BaseDatPlaAsignacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatPlaAsignacion.class.php
+END
+BaseClaEstadoMatricula.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstadoMatricula.class.php
+END
+BaseAuxdobleinscripcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseAuxdobleinscripcion.class.php
+END
+BaseCtrSieUnidadEducativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSieUnidadEducativa.class.php
+END
+BaseCtrSieCurso.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrSieCurso.class.php
+END
+BaseDatPlaItems.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatPlaItems.class.php
+END
+BaseDatOpePeticion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatOpePeticion.class.php
+END
+BaseCtrRdeExtemporaneo.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeExtemporaneo.class.php
+END
+BaseVisPorcentajeConsolidadoDistrito.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseVisPorcentajeConsolidadoDistrito.class.php
+END
+BaseDatIfrJurisdiccionAdministrativa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseDatIfrJurisdiccionAdministrativa.class.php
+END
+BaseCtrDplAutorizacion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrDplAutorizacion.class.php
+END
+BaseClaEdaMobiliario.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaMobiliario.class.php
+END
+BaseCtrRdeEstudianteObsoleto.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseCtrRdeEstudianteObsoleto.class.php
+END
+BaseClaAtencionmedica.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaAtencionmedica.class.php
+END
+BaseVEpaEsa.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/model/doctrine/base/BaseVEpaEsa.class.php
+END
+BaseClaEstadoCivil.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEstadoCivil.class.php
+END
+BaseClaEdaMaterial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/464/alternativa/lib/model/doctrine/base/BaseClaEdaMaterial.class.php
+END

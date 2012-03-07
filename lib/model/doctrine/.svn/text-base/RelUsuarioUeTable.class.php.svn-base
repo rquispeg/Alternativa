@@ -1,0 +1,6 @@
+<?php
+
+class RelUsuarioUeTable extends Doctrine_Table
+{
+
+}

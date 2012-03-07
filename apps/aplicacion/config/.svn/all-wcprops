@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/sieweb/!svn/ver/209/alternativa/apps/aplicacion/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/factories.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/sieweb/!svn/ver/126/alternativa/apps/aplicacion/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/cache.yml
+END
+aplicacionConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/aplicacionConfiguration.class.php
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sieweb/!svn/ver/209/alternativa/apps/aplicacion/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/sieweb/!svn/ver/3/alternativa/apps/aplicacion/config/view.yml
+END

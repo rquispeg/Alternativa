@@ -1,0 +1,1355 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sieweb/!svn/ver/217/alternativa/lib/form/doctrine
+END
+ClaModalidadEnsenanzaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaModalidadEnsenanzaForm.class.php
+END
+AuxDplFormularioEntregaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxDplFormularioEntregaForm.class.php
+END
+CtrSieCursoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrSieCursoForm.class.php
+END
+VAlternativaAcreditacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VAlternativaAcreditacionForm.class.php
+END
+ViewCantidad2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ViewCantidad2011Form.class.php
+END
+DatPlaItemsForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatPlaItemsForm.class.php
+END
+RelTraSeguimientoRequisitoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelTraSeguimientoRequisitoForm.class.php
+END
+ClaCicloForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCicloForm.class.php
+END
+ClaEstadoArchivoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEstadoArchivoForm.class.php
+END
+DatSieDocenteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieDocenteForm.class.php
+END
+ViewNameForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ViewNameForm.class.php
+END
+DatSlnAlternativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSlnAlternativaForm.class.php
+END
+VInscripcion2008Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VInscripcion2008Form.class.php
+END
+DatRdeEstudianteObservadosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeEstudianteObservadosForm.class.php
+END
+ClaTipoTramiteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoTramiteForm.class.php
+END
+AuxEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxEstudianteForm.class.php
+END
+VEpaEsaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEpaEsaForm.class.php
+END
+DatSieOperativosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieOperativosForm.class.php
+END
+TmpAudInscripciones2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpAudInscripciones2011Form.class.php
+END
+DatOpeArchivoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatOpeArchivoForm.class.php
+END
+DatPlaAsignacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatPlaAsignacionForm.class.php
+END
+DatUsuPermisoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatUsuPermisoForm.class.php
+END
+ClaPaisForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaPaisForm.class.php
+END
+ClaGradoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaGradoForm.class.php
+END
+ClaCursoOfertaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/460/alternativa/lib/form/doctrine/ClaCursoOfertaForm.class.php
+END
+ClaCircunscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCircunscripcionForm.class.php
+END
+PruebaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/PruebaForm.class.php
+END
+HisRdeInscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/HisRdeInscripcionForm.class.php
+END
+ClaCicloAcreditacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCicloAcreditacionForm.class.php
+END
+DatIfrJurisdiccionAdministrativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatIfrJurisdiccionAdministrativaForm.class.php
+END
+DatUsuGrupoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatUsuGrupoForm.class.php
+END
+ClaAreaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAreaForm.class.php
+END
+ClaAsignaturaCicloForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAsignaturaCicloForm.class.php
+END
+DatEspCursoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatEspCursoForm.class.php
+END
+ClaLocalidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaLocalidadForm.class.php
+END
+RelTraProcesoUsuarioForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelTraProcesoUsuarioForm.class.php
+END
+TmpRdeInscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpRdeInscripcionForm.class.php
+END
+ClasificadosIndividualForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClasificadosIndividualForm.class.php
+END
+DatDplSerieForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatDplSerieForm.class.php
+END
+VCertificacionRueAdultosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VCertificacionRueAdultosForm.class.php
+END
+SeqInscripcionTecnicaUeRangoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqInscripcionTecnicaUeRangoForm.class.php
+END
+ClaMesForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaMesForm.class.php
+END
+DatRiesgosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRiesgosForm.class.php
+END
+DatSlnEstudiosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSlnEstudiosForm.class.php
+END
+ClaDiscapacidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDiscapacidadForm.class.php
+END
+DatJueInscritosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatJueInscritosForm.class.php
+END
+VEspecialForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEspecialForm.class.php
+END
+CtrUsuLoginForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrUsuLoginForm.class.php
+END
+ClaAsignaturaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAsignaturaForm.class.php
+END
+VInscripcion2007Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VInscripcion2007Form.class.php
+END
+DatSlnPlanestudiosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSlnPlanestudiosForm.class.php
+END
+TmpRdeEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpRdeEstudianteForm.class.php
+END
+VisDatosEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisDatosEstudianteForm.class.php
+END
+DatRdeEstudianteNewRudeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeEstudianteNewRudeForm.class.php
+END
+DatJueApoyoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatJueApoyoForm.class.php
+END
+CtrRdeNormalesForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeNormalesForm.class.php
+END
+AuxDplDiplomasForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxDplDiplomasForm.class.php
+END
+DatOpeUnidadEducativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatOpeUnidadEducativaForm.class.php
+END
+AuxdireccionviviendaestudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxdireccionviviendaestudianteForm.class.php
+END
+ClaEstadoProcesoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEstadoProcesoForm.class.php
+END
+DatSieOperativosEspecialForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/97/alternativa/lib/form/doctrine/DatSieOperativosEspecialForm.class.php
+END
+ErrOpeArchivosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ErrOpeArchivosForm.class.php
+END
+VEstadisticasGestionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEstadisticasGestionForm.class.php
+END
+VisClasificadosColectivosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisClasificadosColectivosForm.class.php
+END
+HisSlnFormalForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/HisSlnFormalForm.class.php
+END
+ClaEstadoMatriculaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEstadoMatriculaForm.class.php
+END
+ClaSeccionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaSeccionForm.class.php
+END
+LoginForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/LoginForm.class.php
+END
+DatAltCursoTecnicaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatAltCursoTecnicaForm.class.php
+END
+TmpSieCursoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpSieCursoForm.class.php
+END
+DatUsuUsuarioForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/217/alternativa/lib/form/doctrine/DatUsuUsuarioForm.class.php
+END
+ClaTipoPeriodoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoPeriodoForm.class.php
+END
+DatRdeDatosapoderadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeDatosapoderadoForm.class.php
+END
+ClaDependenciaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDependenciaForm.class.php
+END
+ClaTipoAdministracionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoAdministracionForm.class.php
+END
+VisClasificadosColectivosDistanciaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisClasificadosColectivosDistanciaForm.class.php
+END
+RelTraRequisitosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelTraRequisitosForm.class.php
+END
+VisInformacionCeasForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisInformacionCeasForm.class.php
+END
+SeqOfertaGestionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqOfertaGestionForm.class.php
+END
+ClaIdiomaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaIdiomaForm.class.php
+END
+SeqInscripcionUeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqInscripcionUeForm.class.php
+END
+ClaConveniosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaConveniosForm.class.php
+END
+DatRueUnidadEducativaTramiteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueUnidadEducativaTramiteForm.class.php
+END
+DatRdaDocentesadministrativosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdaDocentesadministrativosForm.class.php
+END
+RelRdeEstudianteIdiomaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelRdeEstudianteIdiomaForm.class.php
+END
+ClaEstadoCivilForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEstadoCivilForm.class.php
+END
+AuxInscripcionesForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxInscripcionesForm.class.php
+END
+DatSieAdministrativoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieAdministrativoForm.class.php
+END
+DatTraSeguimientoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatTraSeguimientoForm.class.php
+END
+DatUsuSistemaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatUsuSistemaForm.class.php
+END
+DatRdeInscripcionTecnicaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeInscripcionTecnicaForm.class.php
+END
+ViewUeCantidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ViewUeCantidadForm.class.php
+END
+DatRdeSocioEconomicoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeSocioEconomicoForm.class.php
+END
+ClaNivelForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaNivelForm.class.php
+END
+DatTraRegistroForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatTraRegistroForm.class.php
+END
+ClaPruebaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaPruebaForm.class.php
+END
+ClaAreaEspecialForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAreaEspecialForm.class.php
+END
+TmpPruebaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpPruebaForm.class.php
+END
+TmpMateriaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpMateriaForm.class.php
+END
+ClaOrgCurricularForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaOrgCurricularForm.class.php
+END
+ClaFinanciamientoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaFinanciamientoForm.class.php
+END
+AuxdobleinscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxdobleinscripcionForm.class.php
+END
+VGradosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VGradosForm.class.php
+END
+DatTraTramitadorForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatTraTramitadorForm.class.php
+END
+RelUsuarioGrupoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelUsuarioGrupoForm.class.php
+END
+CtrDplLegalizacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrDplLegalizacionForm.class.php
+END
+CtrRdeCambioGradoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeCambioGradoForm.class.php
+END
+VEstadisticaAlternativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEstadisticaAlternativaForm.class.php
+END
+CtrDplImpresionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrDplImpresionForm.class.php
+END
+VisInformacionUeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisInformacionUeForm.class.php
+END
+ClaPeriodoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaPeriodoForm.class.php
+END
+ClaCerradaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCerradaForm.class.php
+END
+ClaTransporteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTransporteForm.class.php
+END
+DatSieUnidadEducativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieUnidadEducativaForm.class.php
+END
+ClaGrupoSanguineoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaGrupoSanguineoForm.class.php
+END
+HisRdeEstudianteIdiomaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/HisRdeEstudianteIdiomaForm.class.php
+END
+ClaComponenteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaComponenteForm.class.php
+END
+DatRdeInscripcionTForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeInscripcionTForm.class.php
+END
+ClaGestionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaGestionForm.class.php
+END
+DatDplErradosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatDplErradosForm.class.php
+END
+DatEspDiscapacidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatEspDiscapacidadForm.class.php
+END
+ClaMotivoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaMotivoForm.class.php
+END
+TmpDatUsuUsuarioForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpDatUsuUsuarioForm.class.php
+END
+VEtaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEtaForm.class.php
+END
+AudRueUnidadeducativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AudRueUnidadeducativaForm.class.php
+END
+CtrRdeTrasladosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeTrasladosForm.class.php
+END
+ClaCantonForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCantonForm.class.php
+END
+DatSlnCursoOfertaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSlnCursoOfertaForm.class.php
+END
+TmpSieDocenteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpSieDocenteForm.class.php
+END
+DatRdeInscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeInscripcionForm.class.php
+END
+ClaAccionesForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAccionesForm.class.php
+END
+DatAltCursoofertaPeriodo_Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatAltCursoofertaPeriodo_Form.class.php
+END
+AuxInsForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxInsForm.class.php
+END
+DatNclNucleoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatNclNucleoForm.class.php
+END
+ClaCargoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaCargoForm.class.php
+END
+VEstadisticaAlternativaEta2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEstadisticaAlternativaEta2011Form.class.php
+END
+DatRdeDiscapacidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeDiscapacidadForm.class.php
+END
+ClaInstruccionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaInstruccionForm.class.php
+END
+CtrDplEntregadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrDplEntregadoForm.class.php
+END
+ClaTablasParametricasForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTablasParametricasForm.class.php
+END
+DatUsuRolForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatUsuRolForm.class.php
+END
+VEstadisticaAlternativa2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VEstadisticaAlternativa2011Form.class.php
+END
+DatNlcLocalEducativoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatNlcLocalEducativoForm.class.php
+END
+DatIfrUnidadEducativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatIfrUnidadEducativaForm.class.php
+END
+DatAltCursoofertaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/460/alternativa/lib/form/doctrine/DatAltCursoofertaForm.class.php
+END
+DatSlnFormalForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSlnFormalForm.class.php
+END
+ClaTurnoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTurnoForm.class.php
+END
+CtrRdeCodigoRudeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeCodigoRudeForm.class.php
+END
+DatRdeEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/155/alternativa/lib/form/doctrine/DatRdeEstudianteForm.class.php
+END
+ViewRue2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ViewRue2011Form.class.php
+END
+DatSieDistritoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieDistritoForm.class.php
+END
+VisPorcentajeConsolidadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisPorcentajeConsolidadoForm.class.php
+END
+VisGestion2010Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisGestion2010Form.class.php
+END
+ClaEstadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEstadoForm.class.php
+END
+DatRueUnidadEducativaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueUnidadEducativaForm.class.php
+END
+DatIfrDireccionGeograficaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatIfrDireccionGeograficaForm.class.php
+END
+DatSieOfertaCurricularForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieOfertaCurricularForm.class.php
+END
+VCodigosRudeNewForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VCodigosRudeNewForm.class.php
+END
+AuxCursoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxCursoForm.class.php
+END
+ClaProvinciaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaProvinciaForm.class.php
+END
+VisInscritos20092010Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisInscritos20092010Form.class.php
+END
+CtrSlnCambioEstadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrSlnCambioEstadoForm.class.php
+END
+ClaEtniaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaEtniaForm.class.php
+END
+DatJueClasificadosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatJueClasificadosForm.class.php
+END
+VInscripcion2009Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VInscripcion2009Form.class.php
+END
+ClaDescripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDescripcionForm.class.php
+END
+ClaDatosComponenteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDatosComponenteForm.class.php
+END
+ClaAtencionmedicaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaAtencionmedicaForm.class.php
+END
+ClaParentescoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaParentescoForm.class.php
+END
+CtrRdeInscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeInscripcionForm.class.php
+END
+RelTraProcesoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelTraProcesoForm.class.php
+END
+DatSieCursoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieCursoForm.class.php
+END
+DatRueCursoTramiteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueCursoTramiteForm.class.php
+END
+DatIfrJurisdiccionGeograficaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatIfrJurisdiccionGeograficaForm.class.php
+END
+VRueEspecialForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VRueEspecialForm.class.php
+END
+DatSieDocenteadministrativoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatSieDocenteadministrativoForm.class.php
+END
+CtrRdeEstudiante2Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeEstudiante2Form.class.php
+END
+DatIfrGestionUeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatIfrGestionUeForm.class.php
+END
+RelRolPermisoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelRolPermisoForm.class.php
+END
+VisUesInfraForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisUesInfraForm.class.php
+END
+ClaTipoFinanciamientoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoFinanciamientoForm.class.php
+END
+DatDplDiplomasForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatDplDiplomasForm.class.php
+END
+ClaTraProcesoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTraProcesoForm.class.php
+END
+BaseFormDoctrine.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/BaseFormDoctrine.class.php
+END
+ClaDepartamentoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDepartamentoForm.class.php
+END
+HisRdeEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/HisRdeEstudianteForm.class.php
+END
+ClaTipoBachilleratoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoBachilleratoForm.class.php
+END
+CtrSlnFormalForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrSlnFormalForm.class.php
+END
+ClaTipoParametroForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoParametroForm.class.php
+END
+DatOpePeticionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatOpePeticionForm.class.php
+END
+DatRueFormulariosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueFormulariosForm.class.php
+END
+ClaRiesgoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaRiesgoForm.class.php
+END
+CtrRdeEstudianteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeEstudianteForm.class.php
+END
+DatRdeInscripcionEspecialForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeInscripcionEspecialForm.class.php
+END
+CtrRdeExtemporaneoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeExtemporaneoForm.class.php
+END
+SeqInscripcionUeRangoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqInscripcionUeRangoForm.class.php
+END
+DatRueInscripcionTramiteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueInscripcionTramiteForm.class.php
+END
+DatAltModulosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatAltModulosForm.class.php
+END
+ClaOrigendiscapacidadForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaOrigendiscapacidadForm.class.php
+END
+SeqAsignacionGestionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqAsignacionGestionForm.class.php
+END
+DatAltConsolidacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatAltConsolidacionForm.class.php
+END
+VisClasificadosColectivosTiempoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VisClasificadosColectivosTiempoForm.class.php
+END
+CtrDplAutorizacionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrDplAutorizacionForm.class.php
+END
+CtrRdeFechaNacimientoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeFechaNacimientoForm.class.php
+END
+RelDocenteOfertacurricularForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelDocenteOfertacurricularForm.class.php
+END
+DatRdeApoderadoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRdeApoderadoForm.class.php
+END
+DatRueNivelForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatRueNivelForm.class.php
+END
+SeqInscripcionGestionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqInscripcionGestionForm.class.php
+END
+SeqSlnCursoOfertaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/SeqSlnCursoOfertaForm.class.php
+END
+VJuegosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VJuegosForm.class.php
+END
+RelUsuarioUeForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/RelUsuarioUeForm.class.php
+END
+ClaTipoProcesoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTipoProcesoForm.class.php
+END
+DatSieOperativosFormAlt.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/18/alternativa/lib/form/doctrine/DatSieOperativosFormAlt.class.php
+END
+ClaRequisitosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaRequisitosForm.class.php
+END
+ClaOperativoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaOperativoForm.class.php
+END
+TmpDiplomasForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpDiplomasForm.class.php
+END
+AuxCurso1Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/AuxCurso1Form.class.php
+END
+ClaPlanEstudiosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaPlanEstudiosForm.class.php
+END
+DatNlcSeccionDistritoForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/DatNlcSeccionDistritoForm.class.php
+END
+CtrRdeDuplicadosForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/CtrRdeDuplicadosForm.class.php
+END
+ClaObservacionInscripcionForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaObservacionInscripcionForm.class.php
+END
+ClaTraTramiteForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaTraTramiteForm.class.php
+END
+TmpInscripciones2011Form.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/TmpInscripciones2011Form.class.php
+END
+ClaDisciplinaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/ClaDisciplinaForm.class.php
+END
+VAlternativaAcreditacionEtaForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/form/doctrine/VAlternativaAcreditacionEtaForm.class.php
+END

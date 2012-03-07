@@ -1,0 +1,4 @@
+[symfony]
+  name=alternativa
+  author=Ing. Ivan Callapa Quiroz
+  orm=Doctrine

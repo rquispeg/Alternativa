@@ -1,0 +1,4 @@
+copy.src.files=false
+copy.src.target=C:\\xampp\\htdocs\\sieweb\\alternativa
+run.as=LOCAL
+url=http://localhost/

@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * CtrSlnCambioEstado form base class.
+ *
+ * @method CtrSlnCambioEstado getObject() Returns the current form's model object
+ *
+ * @package    alternativa
+ * @subpackage form
+ * @author     Lic. Remberto Quispe Gutierrez
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseCtrSlnCambioEstadoForm extends BaseFormDoctrine
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'id'                 => new sfWidgetFormInputHidden(),
+      'inscripcion_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdeInscripcion'), 'add_empty' => false)),
+      'gestion_id'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdeInscripcion_2'), 'add_empty' => false)),
+      'estado_anterior'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstadoMatricula'), 'add_empty' => false)),
+      'estado_actual'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstadoMatricula_4'), 'add_empty' => false)),
+      'usuario_id'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuUsuario'), 'add_empty' => false)),
+      'fecha_modificacion' => new sfWidgetFormDateTime(),
+    ));
+
+    $this->setValidators(array(
+      'id'                 => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
+      'inscripcion_id'     => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdeInscripcion'))),
+      'gestion_id'         => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdeInscripcion_2'))),
+      'estado_anterior'    => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstadoMatricula'))),
+      'estado_actual'      => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstadoMatricula_4'))),
+      'usuario_id'         => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuUsuario'))),
+      'fecha_modificacion' => new sfValidatorDateTime(),
+    ));
+
+    $this->widgetSchema->setNameFormat('ctr_sln_cambio_estado[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'CtrSlnCambioEstado';
+  }
+
+}

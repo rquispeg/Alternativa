@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/sieweb/!svn/ver/4/alternativa/plugins
+END
+.depdblock
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/sieweb/!svn/ver/3/alternativa/plugins/.depdblock
+END
+.lock
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/sieweb/!svn/ver/3/alternativa/plugins/.lock
+END
+.filemap
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/sieweb/!svn/ver/3/alternativa/plugins/.filemap
+END
+.depdb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/sieweb/!svn/ver/3/alternativa/plugins/.depdb
+END

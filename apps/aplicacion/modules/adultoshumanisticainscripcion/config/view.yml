@@ -1,0 +1,5 @@
+indexSuccess:
+  stylesheets:    [jquery.ui.all.css,sinrude.css,ue.css]
+  javascripts:    [validar.js,jquery-1.4.2.js,jquery-ui.js,jquery.ui.datepicker-es.js]
+inscribirestudianteSuccess:
+  stylesheets:    [ue.css]

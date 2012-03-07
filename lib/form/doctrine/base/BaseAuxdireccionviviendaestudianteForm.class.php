@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * Auxdireccionviviendaestudiante form base class.
+ *
+ * @method Auxdireccionviviendaestudiante getObject() Returns the current form's model object
+ *
+ * @package    alternativa
+ * @subpackage form
+ * @author     Lic. Remberto Quispe Gutierrez
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseAuxdireccionviviendaestudianteForm extends BaseFormDoctrine
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'codue'   => new sfWidgetFormInputHidden(),
+      'codrude' => new sfWidgetFormInputHidden(),
+      'dirdep'  => new sfWidgetFormInputText(),
+      'dirpro'  => new sfWidgetFormInputText(),
+      'dirsec'  => new sfWidgetFormInputText(),
+      'dircan'  => new sfWidgetFormInputText(),
+      'dirloc'  => new sfWidgetFormInputText(),
+    ));
+
+    $this->setValidators(array(
+      'codue'   => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'codue', 'required' => false)),
+      'codrude' => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'codrude', 'required' => false)),
+      'dirdep'  => new sfValidatorString(array('max_length' => 50, 'required' => false)),
+      'dirpro'  => new sfValidatorString(array('max_length' => 50, 'required' => false)),
+      'dirsec'  => new sfValidatorString(array('max_length' => 80, 'required' => false)),
+      'dircan'  => new sfValidatorString(array('max_length' => 50, 'required' => false)),
+      'dirloc'  => new sfValidatorString(array('max_length' => 150, 'required' => false)),
+    ));
+
+    $this->widgetSchema->setNameFormat('auxdireccionviviendaestudiante[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'Auxdireccionviviendaestudiante';
+  }
+
+}

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget
+END
+sfWidgetFormPropelJQueryAutocompleter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormPropelJQueryAutocompleter.class.php
+END
+sfWidgetFormSelectDoubleList.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormSelectDoubleList.class.php
+END
+sfWidgetFormTextareaTinyMCE.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormTextareaTinyMCE.class.php
+END
+sfWidgetFormDoctrineChoiceGrouped.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormDoctrineChoiceGrouped.class.php
+END
+sfWidgetFormSelectUSState.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormSelectUSState.class.php
+END
+sfWidgetFormReCaptcha.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormReCaptcha.class.php
+END
+sfWidgetFormDoctrineJQueryAutocompleter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormDoctrineJQueryAutocompleter.class.php
+END
+sfWidgetFormJQueryDate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormJQueryDate.class.php
+END
+sfWidgetFormPropelChoiceGrouped.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormPropelChoiceGrouped.class.php
+END
+sfWidgetFormJQueryAutocompleter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/sieweb/!svn/ver/3/alternativa/plugins/sfFormExtraPlugin/lib/widget/sfWidgetFormJQueryAutocompleter.class.php
+END

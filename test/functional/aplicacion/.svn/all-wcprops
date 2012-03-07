@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion
+END
+loginActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/test/functional/aplicacion/loginActionsTest.php
+END
+crearcursoaltActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/4/alternativa/test/functional/aplicacion/crearcursoaltActionsTest.php
+END
+especialinformacionActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especialinformacionActionsTest.php
+END
+inicioActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/test/functional/aplicacion/inicioActionsTest.php
+END
+crearcursosaltActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/4/alternativa/test/functional/aplicacion/crearcursosaltActionsTest.php
+END
+adultoshumanisticacrearActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/adultoshumanisticacrearActionsTest.php
+END
+especialextemporaneaActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especialextemporaneaActionsTest.php
+END
+adultoshumanisticacambiarActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/adultoshumanisticacambiarActionsTest.php
+END
+adultoshumanisticaeliminarActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/adultoshumanisticaeliminarActionsTest.php
+END
+especialcrearActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especialcrearActionsTest.php
+END
+especialcambiarActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especialcambiarActionsTest.php
+END
+especiallistadoActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especiallistadoActionsTest.php
+END
+especialeliminarActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/97/alternativa/test/functional/aplicacion/especialeliminarActionsTest.php
+END

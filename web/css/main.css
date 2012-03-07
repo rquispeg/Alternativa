@@ -1,0 +1,196 @@
+/* ||| universal set of reset styles |||*/
+html, body, div, span, applet, object, iframe, caption, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* remember to define focus styles! */
+
+:focus {
+  outline: 0;
+}
+
+body {
+  background: white;
+  line-height: 1;
+  color: black;
+  behavior: url("csshover3.htc");   /* habilita eventos hover para IE6 */
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clr {
+  font-size: 1px;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+body{
+  background-color: #0A580E;
+  text-align: center;/*IE 6 o anteriores*/
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: 980px;
+  margin: 0px auto;
+  position: relative;
+}
+
+div.Tabla_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:980px;
+	height:768px;
+}
+
+div.header-app {
+  width: 980px;
+  height: 120px;
+  background-image: url(/images/header_app.png);
+}
+
+div.content-app {
+  width: 980px;
+  height: auto;
+  padding: 0 0 20px 0;
+  display: inline-table;
+  background: #ffffff url(/images/content_app.png) repeat-x;
+}
+
+div.footer-app {
+  background-image: url(/images/footer_app.png);
+  width: 980px;
+  height: 80px;
+}
+
+.creditos_text{
+  color: #000000;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10px;
+  padding: 10px 0 0 0px;
+}
+
+.creditos_text a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.creditos_text a:hover{
+  color: #009933;
+  text-decoration: none;
+}
+
+
+.enlaceboton {
+   font-family: verdana, arial, sans-serif;
+   font-size: 10px;
+   font-weight: bold;
+   color: #000;
+   text-decoration: none;
+   padding: 4px;
+   background: url(/images/printer.png) no-repeat 2px 2px;
+   padding-left: 18px;
+}
+.enlaceboton:link,.enlaceboton:visited {
+   border-top: 1px solid #cccccc;
+   border-bottom: 2px solid #666666;
+   border-left: 1px solid #cccccc;
+   border-right: 2px solid #666666;
+   background-color: #ECE9D8;
+}
+.enlaceboton:hover {
+   border-bottom: 1px solid #cccccc;
+   border-top: 2px solid #666666;
+   border-right: 1px solid #cccccc;
+   border-left: 2px solid #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************
+    Estado Plurinacional de Bolivia
+    Ministerio de Educaci�n - DGP - SIE
+    Sistema de Informaci�n Educativa - Ed. Alternativa y Especial
+    CSS - Die�o gr�fico & web
+    Ramiro Rios F. - rariox
+    Octubre 2011
+**********************************************************/

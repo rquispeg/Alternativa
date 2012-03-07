@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * DatUsuPermiso form base class.
+ *
+ * @method DatUsuPermiso getObject() Returns the current form's model object
+ *
+ * @package    alternativa
+ * @subpackage form
+ * @author     Lic. Remberto Quispe Gutierrez
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseDatUsuPermisoForm extends BaseFormDoctrine
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'id'         => new sfWidgetFormInputHidden(),
+      'desc_menu'  => new sfWidgetFormInputText(),
+      'abr_menu'   => new sfWidgetFormInputText(),
+      'permiso_id' => new sfWidgetFormInputText(),
+      'estado_id'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstado'), 'add_empty' => false)),
+      'link'       => new sfWidgetFormInputText(),
+      'icono'      => new sfWidgetFormInputText(),
+      'sistema_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuSistema'), 'add_empty' => false)),
+    ));
+
+    $this->setValidators(array(
+      'id'         => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'id', 'required' => false)),
+      'desc_menu'  => new sfValidatorString(array('max_length' => 45)),
+      'abr_menu'   => new sfValidatorString(array('max_length' => 45)),
+      'permiso_id' => new sfValidatorInteger(array('required' => false)),
+      'estado_id'  => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstado'))),
+      'link'       => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'icono'      => new sfValidatorString(array('max_length' => 45, 'required' => false)),
+      'sistema_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuSistema'), 'required' => false)),
+    ));
+
+    $this->widgetSchema->setNameFormat('dat_usu_permiso[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'DatUsuPermiso';
+  }
+
+}

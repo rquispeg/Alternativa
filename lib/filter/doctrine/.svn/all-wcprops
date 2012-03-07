@@ -1,0 +1,1337 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine
+END
+DatSieDistritoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieDistritoFormFilter.class.php
+END
+VisPorcentajeConsolidadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisPorcentajeConsolidadoFormFilter.class.php
+END
+ClaTraTramiteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTraTramiteFormFilter.class.php
+END
+ClasificadosIndividualFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClasificadosIndividualFormFilter.class.php
+END
+ClaAreaEspecialFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAreaEspecialFormFilter.class.php
+END
+ClaPruebaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaPruebaFormFilter.class.php
+END
+DatTraRegistroFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatTraRegistroFormFilter.class.php
+END
+ClaEstadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEstadoFormFilter.class.php
+END
+DatRueUnidadEducativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueUnidadEducativaFormFilter.class.php
+END
+VAlternativaAcreditacionEtaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VAlternativaAcreditacionEtaFormFilter.class.php
+END
+SeqInscripcionTecnicaUeRangoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqInscripcionTecnicaUeRangoFormFilter.class.php
+END
+DatSlnEstudiosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSlnEstudiosFormFilter.class.php
+END
+DatTraTramitadorFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatTraTramitadorFormFilter.class.php
+END
+VCodigosRudeNewFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VCodigosRudeNewFormFilter.class.php
+END
+ClaDiscapacidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDiscapacidadFormFilter.class.php
+END
+CtrDplLegalizacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrDplLegalizacionFormFilter.class.php
+END
+CtrDplImpresionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrDplImpresionFormFilter.class.php
+END
+VEstadisticaAlternativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEstadisticaAlternativaFormFilter.class.php
+END
+DatSlnAlternativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSlnAlternativaFormFilter.class.php
+END
+VInscripcion2008FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VInscripcion2008FormFilter.class.php
+END
+TmpRdeEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpRdeEstudianteFormFilter.class.php
+END
+ClaAtencionmedicaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAtencionmedicaFormFilter.class.php
+END
+ClaParentescoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaParentescoFormFilter.class.php
+END
+VEpaEsaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEpaEsaFormFilter.class.php
+END
+DatIfrJurisdiccionGeograficaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatIfrJurisdiccionGeograficaFormFilter.class.php
+END
+VRueEspecialFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VRueEspecialFormFilter.class.php
+END
+DatOpeArchivoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatOpeArchivoFormFilter.class.php
+END
+AuxdireccionviviendaestudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxdireccionviviendaestudianteFormFilter.class.php
+END
+DatEspDiscapacidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatEspDiscapacidadFormFilter.class.php
+END
+CtrRdeEstudiante2FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeEstudiante2FormFilter.class.php
+END
+TmpDatUsuUsuarioFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpDatUsuUsuarioFormFilter.class.php
+END
+ClaEstadoMatriculaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEstadoMatriculaFormFilter.class.php
+END
+HisSlnFormalFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/HisSlnFormalFormFilter.class.php
+END
+VisClasificadosColectivosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisClasificadosColectivosFormFilter.class.php
+END
+ClaCantonFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCantonFormFilter.class.php
+END
+DatSlnCursoOfertaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSlnCursoOfertaFormFilter.class.php
+END
+ClaDepartamentoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDepartamentoFormFilter.class.php
+END
+DatUsuPermisoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatUsuPermisoFormFilter.class.php
+END
+DatOpePeticionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatOpePeticionFormFilter.class.php
+END
+DatRueFormulariosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueFormulariosFormFilter.class.php
+END
+DatRueInscripcionTramiteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueInscripcionTramiteFormFilter.class.php
+END
+ClaCursoOfertaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCursoOfertaFormFilter.class.php
+END
+ClaGradoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaGradoFormFilter.class.php
+END
+ClaPaisFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaPaisFormFilter.class.php
+END
+DatRdeDatosapoderadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeDatosapoderadoFormFilter.class.php
+END
+ClaTipoPeriodoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoPeriodoFormFilter.class.php
+END
+DatUsuUsuarioFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatUsuUsuarioFormFilter.class.php
+END
+TmpSieCursoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpSieCursoFormFilter.class.php
+END
+VisClasificadosColectivosTiempoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisClasificadosColectivosTiempoFormFilter.class.php
+END
+RelTraRequisitosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelTraRequisitosFormFilter.class.php
+END
+VisClasificadosColectivosDistanciaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisClasificadosColectivosDistanciaFormFilter.class.php
+END
+ClaTablasParametricasFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTablasParametricasFormFilter.class.php
+END
+DatUsuRolFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatUsuRolFormFilter.class.php
+END
+VEstadisticaAlternativa2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEstadisticaAlternativa2011FormFilter.class.php
+END
+DatRdaDocentesadministrativosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdaDocentesadministrativosFormFilter.class.php
+END
+DatRueUnidadEducativaTramiteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueUnidadEducativaTramiteFormFilter.class.php
+END
+DatAltCursoofertaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatAltCursoofertaFormFilter.class.php
+END
+DatSlnFormalFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSlnFormalFormFilter.class.php
+END
+ClaRequisitosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaRequisitosFormFilter.class.php
+END
+ClaAreaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAreaFormFilter.class.php
+END
+ClaAsignaturaCicloFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAsignaturaCicloFormFilter.class.php
+END
+ViewRue2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ViewRue2011FormFilter.class.php
+END
+CtrRdeDuplicadosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeDuplicadosFormFilter.class.php
+END
+ClaObservacionInscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaObservacionInscripcionFormFilter.class.php
+END
+DatNlcSeccionDistritoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatNlcSeccionDistritoFormFilter.class.php
+END
+DatEspCursoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatEspCursoFormFilter.class.php
+END
+ClaLocalidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaLocalidadFormFilter.class.php
+END
+RelTraProcesoUsuarioFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelTraProcesoUsuarioFormFilter.class.php
+END
+TmpRdeInscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpRdeInscripcionFormFilter.class.php
+END
+ClaNivelFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaNivelFormFilter.class.php
+END
+ClaDisciplinaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDisciplinaFormFilter.class.php
+END
+DatDplSerieFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatDplSerieFormFilter.class.php
+END
+VCertificacionRueAdultosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VCertificacionRueAdultosFormFilter.class.php
+END
+AuxDplFormularioEntregaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxDplFormularioEntregaFormFilter.class.php
+END
+ClaMesFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaMesFormFilter.class.php
+END
+DatRiesgosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRiesgosFormFilter.class.php
+END
+VGradosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VGradosFormFilter.class.php
+END
+DatSieOfertaCurricularFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieOfertaCurricularFormFilter.class.php
+END
+DatPlaItemsFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatPlaItemsFormFilter.class.php
+END
+RelTraSeguimientoRequisitoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelTraSeguimientoRequisitoFormFilter.class.php
+END
+ClaProvinciaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaProvinciaFormFilter.class.php
+END
+ClaEstadoArchivoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEstadoArchivoFormFilter.class.php
+END
+DatSieDocenteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieDocenteFormFilter.class.php
+END
+ViewNameFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ViewNameFormFilter.class.php
+END
+DatSlnPlanestudiosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSlnPlanestudiosFormFilter.class.php
+END
+ClaTransporteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTransporteFormFilter.class.php
+END
+ClaCerradaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCerradaFormFilter.class.php
+END
+ClaPeriodoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaPeriodoFormFilter.class.php
+END
+ClaDescripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDescripcionFormFilter.class.php
+END
+ClaDatosComponenteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDatosComponenteFormFilter.class.php
+END
+AuxEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxEstudianteFormFilter.class.php
+END
+DatJueApoyoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatJueApoyoFormFilter.class.php
+END
+CtrRdeNormalesFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeNormalesFormFilter.class.php
+END
+ClaGrupoSanguineoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaGrupoSanguineoFormFilter.class.php
+END
+DatRueCursoTramiteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueCursoTramiteFormFilter.class.php
+END
+TmpAudInscripciones2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpAudInscripciones2011FormFilter.class.php
+END
+ClaMotivoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaMotivoFormFilter.class.php
+END
+RelRolPermisoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelRolPermisoFormFilter.class.php
+END
+VisUesInfraFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisUesInfraFormFilter.class.php
+END
+BaseFormFilterDoctrine.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/BaseFormFilterDoctrine.class.php
+END
+CtrSlnFormalFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrSlnFormalFormFilter.class.php
+END
+ClaTipoParametroFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoParametroFormFilter.class.php
+END
+DatRdeInscripcionEspecialFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeInscripcionEspecialFormFilter.class.php
+END
+CtrRdeExtemporaneoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeExtemporaneoFormFilter.class.php
+END
+SeqInscripcionUeRangoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqInscripcionUeRangoFormFilter.class.php
+END
+DatAltCursoTecnicaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatAltCursoTecnicaFormFilter.class.php
+END
+DatRdeDiscapacidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeDiscapacidadFormFilter.class.php
+END
+DatAltConsolidacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatAltConsolidacionFormFilter.class.php
+END
+DatIfrJurisdiccionAdministrativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatIfrJurisdiccionAdministrativaFormFilter.class.php
+END
+ClaCicloAcreditacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCicloAcreditacionFormFilter.class.php
+END
+HisRdeInscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/HisRdeInscripcionFormFilter.class.php
+END
+ClaTipoAdministracionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoAdministracionFormFilter.class.php
+END
+CtrDplEntregadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrDplEntregadoFormFilter.class.php
+END
+DatRdeApoderadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeApoderadoFormFilter.class.php
+END
+DatRueNivelFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRueNivelFormFilter.class.php
+END
+SeqInscripcionGestionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqInscripcionGestionFormFilter.class.php
+END
+SeqSlnCursoOfertaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqSlnCursoOfertaFormFilter.class.php
+END
+VJuegosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VJuegosFormFilter.class.php
+END
+ClaTipoProcesoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoProcesoFormFilter.class.php
+END
+DatTraSeguimientoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatTraSeguimientoFormFilter.class.php
+END
+DatRdeEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeEstudianteFormFilter.class.php
+END
+AuxCurso1FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxCurso1FormFilter.class.php
+END
+ClaPlanEstudiosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaPlanEstudiosFormFilter.class.php
+END
+DatRdeSocioEconomicoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeSocioEconomicoFormFilter.class.php
+END
+ViewUeCantidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ViewUeCantidadFormFilter.class.php
+END
+VisGestion2010FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisGestion2010FormFilter.class.php
+END
+DatIfrDireccionGeograficaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatIfrDireccionGeograficaFormFilter.class.php
+END
+AuxdobleinscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxdobleinscripcionFormFilter.class.php
+END
+ClaFinanciamientoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaFinanciamientoFormFilter.class.php
+END
+VAlternativaAcreditacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VAlternativaAcreditacionFormFilter.class.php
+END
+ViewCantidad2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ViewCantidad2011FormFilter.class.php
+END
+AuxCursoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxCursoFormFilter.class.php
+END
+VEspecialFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEspecialFormFilter.class.php
+END
+VisInscritos20092010FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisInscritos20092010FormFilter.class.php
+END
+VInscripcion2007FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VInscripcion2007FormFilter.class.php
+END
+VisInformacionUeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisInformacionUeFormFilter.class.php
+END
+DatJueClasificadosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatJueClasificadosFormFilter.class.php
+END
+VInscripcion2009FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VInscripcion2009FormFilter.class.php
+END
+DatRdeEstudianteNewRudeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeEstudianteNewRudeFormFilter.class.php
+END
+DatSieUnidadEducativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieUnidadEducativaFormFilter.class.php
+END
+DatSieCursoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieCursoFormFilter.class.php
+END
+DatOpeUnidadEducativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatOpeUnidadEducativaFormFilter.class.php
+END
+DatDplErradosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatDplErradosFormFilter.class.php
+END
+ClaGestionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaGestionFormFilter.class.php
+END
+DatRdeInscripcionTFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeInscripcionTFormFilter.class.php
+END
+DatSieDocenteadministrativoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieDocenteadministrativoFormFilter.class.php
+END
+ErrOpeArchivosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ErrOpeArchivosFormFilter.class.php
+END
+VEstadisticasGestionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEstadisticasGestionFormFilter.class.php
+END
+CtrRdeTrasladosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeTrasladosFormFilter.class.php
+END
+AudRueUnidadeducativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AudRueUnidadeducativaFormFilter.class.php
+END
+DatDplDiplomasFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatDplDiplomasFormFilter.class.php
+END
+ClaTraProcesoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTraProcesoFormFilter.class.php
+END
+ClaSeccionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaSeccionFormFilter.class.php
+END
+DatRdeInscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeInscripcionFormFilter.class.php
+END
+ClaAccionesFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAccionesFormFilter.class.php
+END
+ClaTipoBachilleratoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoBachilleratoFormFilter.class.php
+END
+CtrRdeEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeEstudianteFormFilter.class.php
+END
+VEstadisticaAlternativaEta2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEstadisticaAlternativaEta2011FormFilter.class.php
+END
+ClaOrigendiscapacidadFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaOrigendiscapacidadFormFilter.class.php
+END
+SeqAsignacionGestionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqAsignacionGestionFormFilter.class.php
+END
+PruebaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/PruebaFormFilter.class.php
+END
+ClaDependenciaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaDependenciaFormFilter.class.php
+END
+ClaInstruccionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaInstruccionFormFilter.class.php
+END
+CtrRdeFechaNacimientoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeFechaNacimientoFormFilter.class.php
+END
+RelDocenteOfertacurricularFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelDocenteOfertacurricularFormFilter.class.php
+END
+DatUsuGrupoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatUsuGrupoFormFilter.class.php
+END
+ClaConveniosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaConveniosFormFilter.class.php
+END
+SeqInscripcionUeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqInscripcionUeFormFilter.class.php
+END
+DatNlcLocalEducativoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatNlcLocalEducativoFormFilter.class.php
+END
+DatIfrUnidadEducativaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatIfrUnidadEducativaFormFilter.class.php
+END
+DatSieAdministrativoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieAdministrativoFormFilter.class.php
+END
+CtrRdeCodigoRudeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeCodigoRudeFormFilter.class.php
+END
+TmpDiplomasFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpDiplomasFormFilter.class.php
+END
+DatRdeInscripcionTecnicaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeInscripcionTecnicaFormFilter.class.php
+END
+DatUsuSistemaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatUsuSistemaFormFilter.class.php
+END
+TmpInscripciones2011FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpInscripciones2011FormFilter.class.php
+END
+TmpPruebaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpPruebaFormFilter.class.php
+END
+ClaModalidadEnsenanzaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaModalidadEnsenanzaFormFilter.class.php
+END
+ClaOrgCurricularFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaOrgCurricularFormFilter.class.php
+END
+TmpMateriaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpMateriaFormFilter.class.php
+END
+CtrSieCursoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrSieCursoFormFilter.class.php
+END
+RelUsuarioGrupoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelUsuarioGrupoFormFilter.class.php
+END
+ClaCicloFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCicloFormFilter.class.php
+END
+DatJueInscritosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatJueInscritosFormFilter.class.php
+END
+CtrRdeCambioGradoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeCambioGradoFormFilter.class.php
+END
+CtrUsuLoginFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrUsuLoginFormFilter.class.php
+END
+ClaAsignaturaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaAsignaturaFormFilter.class.php
+END
+CtrSlnCambioEstadoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrSlnCambioEstadoFormFilter.class.php
+END
+ClaEtniaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEtniaFormFilter.class.php
+END
+DatRdeEstudianteObservadosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatRdeEstudianteObservadosFormFilter.class.php
+END
+ClaTipoTramiteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoTramiteFormFilter.class.php
+END
+VisDatosEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisDatosEstudianteFormFilter.class.php
+END
+CtrRdeInscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrRdeInscripcionFormFilter.class.php
+END
+RelTraProcesoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelTraProcesoFormFilter.class.php
+END
+DatSieOperativosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatSieOperativosFormFilter.class.php
+END
+AuxDplDiplomasFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxDplDiplomasFormFilter.class.php
+END
+ClaComponenteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaComponenteFormFilter.class.php
+END
+HisRdeEstudianteIdiomaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/HisRdeEstudianteIdiomaFormFilter.class.php
+END
+ClaEstadoProcesoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEstadoProcesoFormFilter.class.php
+END
+DatIfrGestionUeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatIfrGestionUeFormFilter.class.php
+END
+VEtaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VEtaFormFilter.class.php
+END
+ClaTipoFinanciamientoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTipoFinanciamientoFormFilter.class.php
+END
+DatPlaAsignacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatPlaAsignacionFormFilter.class.php
+END
+TmpSieDocenteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/TmpSieDocenteFormFilter.class.php
+END
+HisRdeEstudianteFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/HisRdeEstudianteFormFilter.class.php
+END
+DatAltCursoofertaPeriodo_FormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatAltCursoofertaPeriodo_FormFilter.class.php
+END
+AuxInsFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxInsFormFilter.class.php
+END
+ClaRiesgoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaRiesgoFormFilter.class.php
+END
+DatNclNucleoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatNclNucleoFormFilter.class.php
+END
+ClaCargoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCargoFormFilter.class.php
+END
+DatAltModulosFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/DatAltModulosFormFilter.class.php
+END
+ClaCircunscripcionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaCircunscripcionFormFilter.class.php
+END
+CtrDplAutorizacionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/CtrDplAutorizacionFormFilter.class.php
+END
+ClaIdiomaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaIdiomaFormFilter.class.php
+END
+SeqOfertaGestionFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/SeqOfertaGestionFormFilter.class.php
+END
+VisInformacionCeasFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/VisInformacionCeasFormFilter.class.php
+END
+RelUsuarioUeFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelUsuarioUeFormFilter.class.php
+END
+AuxInscripcionesFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/AuxInscripcionesFormFilter.class.php
+END
+ClaEstadoCivilFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaEstadoCivilFormFilter.class.php
+END
+RelRdeEstudianteIdiomaFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/RelRdeEstudianteIdiomaFormFilter.class.php
+END
+ClaTurnoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaTurnoFormFilter.class.php
+END
+ClaOperativoFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/sieweb/!svn/ver/3/alternativa/lib/filter/doctrine/ClaOperativoFormFilter.class.php
+END

@@ -1,0 +1,6 @@
+<?php
+
+class EstSieFinGestionTable extends Doctrine_Table
+{
+
+}

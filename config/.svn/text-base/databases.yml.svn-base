@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'mysql:host=100.0.100.105;dbname=sieweb'
+      username: desa
+      password: developer

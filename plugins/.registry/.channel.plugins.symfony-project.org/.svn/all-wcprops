@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/sieweb/!svn/ver/3/alternativa/plugins/.registry/.channel.plugins.symfony-project.org
+END
+ysjqueryrevolutionsplugin.reg
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/sieweb/!svn/ver/3/alternativa/plugins/.registry/.channel.plugins.symfony-project.org/ysjqueryrevolutionsplugin.reg
+END
+ysjqueryuiplugin.reg
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/sieweb/!svn/ver/3/alternativa/plugins/.registry/.channel.plugins.symfony-project.org/ysjqueryuiplugin.reg
+END
+sfformextraplugin.reg
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/sieweb/!svn/ver/3/alternativa/plugins/.registry/.channel.plugins.symfony-project.org/sfformextraplugin.reg
+END

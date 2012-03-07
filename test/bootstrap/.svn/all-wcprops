@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/sieweb/!svn/ver/3/alternativa/test/bootstrap
+END
+unit.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/sieweb/!svn/ver/3/alternativa/test/bootstrap/unit.php
+END
+functional.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/sieweb/!svn/ver/3/alternativa/test/bootstrap/functional.php
+END

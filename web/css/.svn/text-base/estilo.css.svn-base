@@ -1,0 +1,488 @@
+/* ||| universal set of reset styles |||*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+caption,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+	vertical-align: baseline;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+    behavior: url("csshover3.htc");
+    /*font-family: "Lucida Grande",Verdana,Arial,sans-serif !important;*/
+}
+ol,
+ul {
+	list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption,
+th,
+td {
+	font-weight: normal;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+blockquote,
+q {
+	quotes: "" "";
+}
+/* ||| the end |||*/
+/* ||| set of clearing floats |||*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clr {
+	font-size : 1px;
+}
+/* Hides from IE-mac \*/
+
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.clear {
+	clear: both;
+}
+/* End hide from IE-mac */
+/* ||| the end |||*/
+
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+
+body{
+    background-color: #0a5617;
+    text-align : center;   /*IE 6 o anteriores*/
+    margin : 0;
+    padding : 0;
+}
+
+#wrapper {
+width: 856px;
+margin: 0px auto;
+position: relative;
+}
+
+.contenido_text{
+  background-image:url(../images/input_txt_usr.jpg);
+  background-repeat:no-repeat;
+/*  padding-left:10px;*/
+  width: 134px;
+  height: 25px;
+  border-style: none;
+  border: none;
+  padding: 0 0 0 10px;
+}
+
+.contenido_text_pwd{
+  background-image:url(../images/input_txt_pswd.jpg);
+  background-repeat:no-repeat;
+/*  padding-left:10px;*/
+  width: 134px;
+  height: 25px;
+  border-style: none;
+  padding: 0 0 0 10px;
+}
+
+
+div.Tabla_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:855px;
+	height:520px;
+}
+
+div.alternativa-login-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:452px;
+	height:118px;
+    background-image: url(../images/alternativa_login_01.jpg);
+}
+
+div.alternativa-login-02 {
+	position:absolute;
+	left:452px;
+	top:0px;
+	width:403px;
+	height:118px;
+    background-image: url(../images/alternativa_login_02.jpg);
+}
+
+div.alternativa-login-03 {
+	position:absolute;
+	left:0px;
+	top:118px;
+	width:452px;
+	height:59px;
+    background-image: url(../images/alternativa_login_03.jpg);
+}
+
+div.alternativa-login-04 {
+	position:absolute;
+	left:452px;
+	top:118px;
+	width:194px;
+	height:189px;
+    background-image: url(../images/alternativa_login_04.jpg);
+}
+
+div.alternativa-login-05 {
+	position:absolute;
+	left:646px;
+	top:118px;
+	width:172px;
+	height:189px;
+    background-image: url(../images/alternativa_login_05.jpg);
+}
+
+div.alternativa-login-06 {
+	position:absolute;
+	left:818px;
+	top:118px;
+	width:37px;
+	height:189px;
+    background-image: url(../images/alternativa_login_06.jpg);
+}
+
+div.alternativa-login-07 {
+	position:absolute;
+	left:0px;
+	top:177px;
+	width:94px;
+	height:233px;
+    background-image: url(../images/alternativa_login_07.jpg);
+}
+
+div.input-usr {
+	position:absolute;
+	left:94px;
+	top:177px;
+	width:24px;
+	height:25px;
+    background-image: url(../images/input_usr.jpg);
+}
+
+div.input-txt-usr {
+	position:absolute;
+	left:118px;
+	top:177px;
+	width:134px;
+	height:25px;
+    background-image: url(../images/input_txt_usr.jpg);
+}
+
+div.alternativa-login-10 {
+	position:absolute;
+	left:252px;
+	top:177px;
+	width:35px;
+	height:117px;
+    background-image: url(../images/alternativa_login_10.jpg);
+}
+
+div.alternativa-login-11 {
+	position:absolute;
+	left:287px;
+	top:177px;
+	width:165px;
+	height:233px;
+    background-image: url(../images/alternativa_login_11.jpg);
+}
+
+div.msg-usr {
+	position:absolute;
+	left:94px;
+	top:202px;
+	width:158px;
+	height:20px;
+    background-image: url(../images/msg_usr.jpg);
+}
+
+div.alternativa-login-13 {
+	position:absolute;
+	left:94px;
+	top:222px;
+	width:158px;
+	height:20px;
+    background-image: url(../images/alternativa_login_13.jpg);
+}
+
+div.input-pswd {
+	position:absolute;
+	left:94px;
+	top:242px;
+	width:24px;
+	height:25px;
+    background-image: url(../images/input_pswd.jpg);
+}
+
+div.input-txt-pswd {
+	position:absolute;
+	left:118px;
+	top:242px;
+	width:134px;
+	height:25px;
+    background-image: url(../images/input_txt_pswd.jpg);
+}
+
+div.msg-pwd {
+	position:absolute;
+	left:94px;
+	top:267px;
+	width:158px;
+	height:27px;
+    background-image: url(../images/msg_pwd.jpg);
+}
+
+div.text-area {
+	position:absolute;
+	left:94px;
+	top:294px;
+	width:193px;
+	height:41px;
+    background-image: url(../images/text_area.jpg);
+}
+
+div.leyenda {
+	position:absolute;
+	left:452px;
+	top:307px;
+	width:366px;
+	height:123px;
+    background-image: url(../images/leyenda.jpg);
+}
+
+div.alternativa-login-19 {
+	position:absolute;
+	left:818px;
+	top:307px;
+	width:37px;
+	height:123px;
+    background-image: url(../images/alternativa_login_19.jpg);
+}
+
+div.alternativa-login-20 {
+	position:absolute;
+	left:94px;
+	top:335px;
+	width:85px;
+	height:75px;
+    background-image: url(../images/alternativa_login_20.jpg);
+}
+
+div.btn-ingresar {
+	position:absolute;
+	left:179px;
+	top:335px;
+	width:78px;
+	height:23px;
+    background-image: url(../images/btn_ingresar.jpg);
+}
+
+div.btn-ingresar:hover {
+	position:absolute;
+	left:179px;
+	top:335px;
+	width:78px;
+	height:23px;
+    background-image: url(../images/btn_ingresar_hover.jpg);
+}
+
+div.alternativa-login-22 {
+	position:absolute;
+	left:257px;
+	top:335px;
+	width:30px;
+	height:75px;
+    background-image: url(../images/alternativa_login_22.jpg);
+}
+
+div.alternativa-login-23 {
+	position:absolute;
+	left:179px;
+	top:358px;
+	width:78px;
+	height:52px;
+    background-image: url(../images/alternativa_login_23.jpg);
+}
+
+div.msg-alertas {
+	position:absolute;
+	left:0px;
+	top:410px;
+	width:452px;
+	height:74px;
+    background-image: url(../images/msg_alertas.jpg);
+}
+
+div.alternativa-login-25 {
+	position:absolute;
+	left:452px;
+	top:430px;
+	width:403px;
+	height:54px;
+    background-image: url(../images/alternativa_login_25.jpg);
+}
+
+div.creditos {
+	position:absolute;
+	left:0px;
+	top:484px;
+	width:855px;
+	height:36px;
+    background-image: url(../images/creditos.jpg);
+}
+
+.creditos_text{
+  color: #FFFFFF;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.creditos_text a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.creditos_text a:hover{
+  color: #99FF66;
+  text-decoration: none;
+}
+
+.error_container {
+    border: medium none;
+    color: #0000FF;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    display: block;
+}
+
+.notice {
+    background: #FF0033 url("/images/error.png") no-repeat scroll 10px;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 0 4px 30px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************
+    Estado Plurinacional de Bolivia
+    Ministerio de Educación - DGP - SIE
+    Sistema de Información Educativa - Ed. Alternativa y Especial
+    CSS - Dieño gráfico & web
+    Ramiro Rios F. - rariox
+    Octubre 2011
+**********************************************************/

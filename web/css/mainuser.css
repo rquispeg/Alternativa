@@ -1,0 +1,368 @@
+/* ||| universal set of reset styles |||*/
+html, body, div, span, applet, object, iframe, caption, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+  vertical-align: baseline;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* remember to define focus styles! */
+
+:focus {
+  outline: 0;
+}
+
+
+
+ol, ul {
+  list-style: none;
+}
+
+/* tables still need cellspacing="0" in the markup */
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+.clr {
+  font-size: 1px;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+*/
+
+
+
+#wrapper2 {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  width: 867px;
+  margin: 0px auto;
+  position: relative;
+}
+
+div.Tabla_02 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:867px;
+	height:488px;
+    color: #FFFFFF;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+
+div.usuario-app-01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:288px;
+	height:17px;
+    background-image: url(/images/usuario_app_01.png);
+}
+
+div.usuario-app-02 {
+	position:absolute;
+	left:288px;
+	top:0px;
+	width:20px;
+	height:488px;
+    background-image: url(/images/usuario_app_02.png);
+}
+
+div.usuario-app-03 {
+	position:absolute;
+	left:308px;
+	top:0px;
+	width:559px;
+	height:488px;
+    color: #002750;
+}
+
+div.usuario-app-04 {
+	position:absolute;
+	left:0px;
+	top:17px;
+	width:72px;
+	height:155px;
+    background-image: url(/images/usuario_app_04.png);
+}
+
+div.fotografia-usuario {
+	position:absolute;
+	left:72px;
+	top:17px;
+	width:124px;
+	height:124px;
+    background-image: url(/images/fotografia_usuario.png);
+}
+
+div.usuario-app-06 {
+	position:absolute;
+	left:196px;
+	top:17px;
+	width:92px;
+	height:155px;
+    background-image: url(/images/usuario_app_06.png);
+}
+
+div.usuario-app-07 {
+	position:absolute;
+	left:72px;
+	top:141px;
+	width:124px;
+	height:31px;
+    background-image: url(/images/usuario_app_07.png);
+}
+
+div.usuario-app-08 {
+	position:absolute;
+	left:0px;
+	top:172px;
+	width:53px;
+	height:316px;
+    background-image: url(/images/usuario_app_08.png);
+}
+
+div.login-usuario {
+	position:absolute;
+	left:53px;
+	top:172px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/login_usuario.png);
+}
+
+div.usuario-app-10 {
+	position:absolute;
+	left:249px;
+	top:172px;
+	width:39px;
+	height:316px;
+    background-image: url(/images/usuario_app_10.png);
+}
+
+div.usuario-app-11 {
+	position:absolute;
+	left:53px;
+	top:188px;
+	width:196px;
+	height:12px;
+    background-image: url(/images/usuario_app_11.png);
+}
+
+div.nombre-usuario {
+	position:absolute;
+	left:53px;
+	top:200px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/nombre_usuario.png);
+}
+
+div.usuario-app-13 {
+	position:absolute;
+	left:53px;
+	top:216px;
+	width:196px;
+	height:13px;
+    background-image: url(/images/usuario_app_13.png);
+}
+
+div.correo-usuario {
+	position:absolute;
+	left:53px;
+	top:229px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/correo_usuario.png);
+}
+
+div.usuario-app-15 {
+	position:absolute;
+	left:53px;
+	top:245px;
+	width:196px;
+	height:13px;
+    background-image: url(/images/usuario_app_15.png);
+}
+
+div.telefono-usuario {
+	position:absolute;
+	left:53px;
+	top:258px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/telefono_usuario.png);
+}
+
+div.usuario-app-17 {
+	position:absolute;
+	left:53px;
+	top:274px;
+	width:196px;
+	height:13px;
+    background-image: url(/images/usuario_app_17.png);
+}
+
+div.celular-usuario {
+	position:absolute;
+	left:53px;
+	top:287px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/celular_usuario.png);
+}
+
+div.usuario-app-19 {
+	position:absolute;
+	left:53px;
+	top:303px;
+	width:196px;
+	height:12px;
+    background-image: url(/images/usuario_app_19.png);
+}
+
+div.direccion-usuario {
+	position:absolute;
+	left:53px;
+	top:315px;
+	width:196px;
+	height:38px;
+    background-image: url(/images/direccion_usuario.png);
+}
+
+div.usuario-app-21 {
+	position:absolute;
+	left:53px;
+	top:353px;
+	width:196px;
+	height:8px;
+    background-image: url(/images/usuario_app_21.png);
+}
+
+div.user-20 {
+	position:absolute;
+	left:53px;
+	top:361px;
+	width:196px;
+	height:38px;
+    background-image: url(/images/user_20.png);
+}
+
+div.usuario-app-23 {
+	position:absolute;
+	left:53px;
+	top:399px;
+	width:196px;
+	height:12px;
+    background-image: url(/images/usuario_app_23.png);
+}
+
+div.actualizar-usuario {
+	position:absolute;
+	left:53px;
+	top:411px;
+	width:196px;
+	height:16px;
+    background-image: url(/images/actualizar_usuario.png);
+}
+
+div.usuario-app-25 {
+	position:absolute;
+	left:53px;
+	top:427px;
+	width:196px;
+	height:61px;
+    background-image: url(/images/usuario_app_25.png);
+}
+
+
+.creditos_text{
+  color: #000000;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 10px;
+  padding: 10px 0 0 0px;
+}
+
+.creditos_text a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.creditos_text a:hover{
+  color: #009933;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************
+    Estado Plurinacional de Bolivia
+    Ministerio de Educaci�n - DGP - SIE
+    Sistema de Informaci�n Educativa - USUARIOS
+    CSS - Die�o gr�fico & web
+    Ramiro Rios F. - rariox
+    Octubre 2011
+**********************************************************/

@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * DatSieDocenteadministrativo form base class.
+ *
+ * @method DatSieDocenteadministrativo getObject() Returns the current form's model object
+ *
+ * @package    alternativa
+ * @subpackage form
+ * @author     Ing. Ivan Callapa Quiroz
+ * @version    SVN: $Id: sfDoctrineFormGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
+ */
+abstract class BaseDatSieDocenteadministrativoForm extends BaseFormDoctrine
+{
+  public function setup()
+  {
+    $this->setWidgets(array(
+      'ci'               => new sfWidgetFormInputHidden(),
+      'nombre_completo'  => new sfWidgetFormInputText(),
+      'fecha_nacimiento' => new sfWidgetFormInputText(),
+      'genero'           => new sfWidgetFormInputText(),
+      'formacion'        => new sfWidgetFormInputText(),
+      'especialidad'     => new sfWidgetFormInputText(),
+      'rda_id'           => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdaDocentesadministrativos'), 'add_empty' => false)),
+    ));
+
+    $this->setValidators(array(
+      'ci'               => new sfValidatorDoctrineChoice(array('model' => $this->getModelName(), 'column' => 'ci', 'required' => false)),
+      'nombre_completo'  => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'fecha_nacimiento' => new sfValidatorString(array('max_length' => 45, 'required' => false)),
+      'genero'           => new sfValidatorString(array('max_length' => 45, 'required' => false)),
+      'formacion'        => new sfValidatorString(array('max_length' => 45, 'required' => false)),
+      'especialidad'     => new sfValidatorString(array('max_length' => 45, 'required' => false)),
+      'rda_id'           => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdaDocentesadministrativos'))),
+    ));
+
+    $this->widgetSchema->setNameFormat('dat_sie_docenteadministrativo[%s]');
+
+    $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);
+
+    $this->setupInheritance();
+
+    parent::setup();
+  }
+
+  public function getModelName()
+  {
+    return 'DatSieDocenteadministrativo';
+  }
+
+}

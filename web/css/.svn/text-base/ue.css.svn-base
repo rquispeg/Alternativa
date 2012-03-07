@@ -1,0 +1,36 @@
+.noticeUE{
+    padding: 3px 0px 4px 30px;
+    color:#FF0000;
+    background: url(/images/error.png) no-repeat 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    background-color: #FFFFE6;
+    font-weight: bold;
+    width: 743px;
+}
+
+.dato{
+    border-style: solid;
+    border-color: silver;
+    background-color: #ffefcd;
+    border-width: 1px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width:auto;
+}
+
+.caption{
+  color:#05517E;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+

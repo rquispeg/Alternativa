@@ -1,0 +1,1 @@
+<?php include_partial('adultostecnicainscripcionsinrude/combounidadeducativa',array('unidades'=>$unidades));

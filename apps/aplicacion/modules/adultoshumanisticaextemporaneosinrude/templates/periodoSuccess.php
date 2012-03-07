@@ -1,0 +1,1 @@
+<?php include_partial('adultoshumanisticaextemporaneosinrude/combounidadeducativa',array('unidades'=>$unidades));
