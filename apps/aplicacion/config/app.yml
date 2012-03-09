@@ -6,3 +6,4 @@ all:
   reporte: http://100.0.100.103:8080/birt/frameset?__report=sie
   gestion: 2012
   periodo: 2
+  modalidad: 15

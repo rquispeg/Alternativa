@@ -147,6 +147,9 @@ class adultoshumanisticaextemporaneaActions extends sfActions
       }
       
   }
+  
+  
+  
   public function executeReporte(){
       $this->setLayout('reporte');
     return sfView::SUCCESS;

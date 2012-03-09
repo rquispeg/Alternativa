@@ -9,6 +9,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaOrgCurricular', 'doctrine');
  * 
  * @property integer $cod_org_curr
  * @property string $desc_modalidad
+ * @property Doctrine_Collection $ClaAcreditacion
  * @property Doctrine_Collection $ClaNivel
  * @property Doctrine_Collection $ClaOperativo
  * @property Doctrine_Collection $DatRueUnidadEducativa
@@ -18,6 +19,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaOrgCurricular', 'doctrine');
  * 
  * @method integer             getCodOrgCurr()                   Returns the current record's "cod_org_curr" value
  * @method string              getDescModalidad()                Returns the current record's "desc_modalidad" value
+ * @method Doctrine_Collection getClaAcreditacion()              Returns the current record's "ClaAcreditacion" collection
  * @method Doctrine_Collection getClaNivel()                     Returns the current record's "ClaNivel" collection
  * @method Doctrine_Collection getClaOperativo()                 Returns the current record's "ClaOperativo" collection
  * @method Doctrine_Collection getDatRueUnidadEducativa()        Returns the current record's "DatRueUnidadEducativa" collection
@@ -26,6 +28,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaOrgCurricular', 'doctrine');
  * @method Doctrine_Collection getVisDplImpresos()               Returns the current record's "VisDplImpresos" collection
  * @method ClaOrgCurricular    setCodOrgCurr()                   Sets the current record's "cod_org_curr" value
  * @method ClaOrgCurricular    setDescModalidad()                Sets the current record's "desc_modalidad" value
+ * @method ClaOrgCurricular    setClaAcreditacion()              Sets the current record's "ClaAcreditacion" collection
  * @method ClaOrgCurricular    setClaNivel()                     Sets the current record's "ClaNivel" collection
  * @method ClaOrgCurricular    setClaOperativo()                 Sets the current record's "ClaOperativo" collection
  * @method ClaOrgCurricular    setDatRueUnidadEducativa()        Sets the current record's "DatRueUnidadEducativa" collection
@@ -65,6 +68,10 @@ abstract class BaseClaOrgCurricular extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('ClaAcreditacion', array(
+             'local' => 'cod_org_curr',
+             'foreign' => 'cod_org_curr_id'));
+
         $this->hasMany('ClaNivel', array(
              'local' => 'cod_org_curr',
              'foreign' => 'cod_org_curr_id'));

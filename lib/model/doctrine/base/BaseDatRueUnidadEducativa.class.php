@@ -39,6 +39,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRueUnidadEducativa', 'doctrin
  * @property Doctrine_Collection $DatOpeUnidadEducativa
  * @property Doctrine_Collection $DatRdeInscripcion
  * @property Doctrine_Collection $DatRiesgos
+ * @property Doctrine_Collection $DatRueAcreditacion
  * @property Doctrine_Collection $DatRueNivel
  * @property Doctrine_Collection $DatRueSubcentro
  * @property Doctrine_Collection $DatSieUnidadEducativa
@@ -81,6 +82,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRueUnidadEducativa', 'doctrin
  * @method Doctrine_Collection          getDatOpeUnidadEducativa()            Returns the current record's "DatOpeUnidadEducativa" collection
  * @method Doctrine_Collection          getDatRdeInscripcion()                Returns the current record's "DatRdeInscripcion" collection
  * @method Doctrine_Collection          getDatRiesgos()                       Returns the current record's "DatRiesgos" collection
+ * @method Doctrine_Collection          getDatRueAcreditacion()               Returns the current record's "DatRueAcreditacion" collection
  * @method Doctrine_Collection          getDatRueNivel()                      Returns the current record's "DatRueNivel" collection
  * @method Doctrine_Collection          getDatRueSubcentro()                  Returns the current record's "DatRueSubcentro" collection
  * @method Doctrine_Collection          getDatSieUnidadEducativa()            Returns the current record's "DatSieUnidadEducativa" collection
@@ -122,6 +124,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRueUnidadEducativa', 'doctrin
  * @method DatRueUnidadEducativa        setDatOpeUnidadEducativa()            Sets the current record's "DatOpeUnidadEducativa" collection
  * @method DatRueUnidadEducativa        setDatRdeInscripcion()                Sets the current record's "DatRdeInscripcion" collection
  * @method DatRueUnidadEducativa        setDatRiesgos()                       Sets the current record's "DatRiesgos" collection
+ * @method DatRueUnidadEducativa        setDatRueAcreditacion()               Sets the current record's "DatRueAcreditacion" collection
  * @method DatRueUnidadEducativa        setDatRueNivel()                      Sets the current record's "DatRueNivel" collection
  * @method DatRueUnidadEducativa        setDatRueSubcentro()                  Sets the current record's "DatRueSubcentro" collection
  * @method DatRueUnidadEducativa        setDatSieUnidadEducativa()            Sets the current record's "DatSieUnidadEducativa" collection
@@ -338,6 +341,10 @@ abstract class BaseDatRueUnidadEducativa extends sfDoctrineRecord
         $this->hasMany('DatRiesgos', array(
              'local' => 'cod_ue',
              'foreign' => 'codigo_ue_id'));
+
+        $this->hasMany('DatRueAcreditacion', array(
+             'local' => 'cod_ue',
+             'foreign' => 'cod_ue_id'));
 
         $this->hasMany('DatRueNivel', array(
              'local' => 'cod_ue',

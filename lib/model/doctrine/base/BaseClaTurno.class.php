@@ -20,6 +20,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaTurno', 'doctrine');
  * @property Doctrine_Collection $DatSieUnidadEducativa
  * @property Doctrine_Collection $SdatRueUnidadEducativa
  * @property Doctrine_Collection $SdatSieCurso
+ * @property Doctrine_Collection $SdatSieCursotecnica
  * 
  * @method integer             getIdTurno()                      Returns the current record's "id_turno" value
  * @method string              getDescTurno()                    Returns the current record's "desc_turno" value
@@ -34,6 +35,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaTurno', 'doctrine');
  * @method Doctrine_Collection getDatSieUnidadEducativa()        Returns the current record's "DatSieUnidadEducativa" collection
  * @method Doctrine_Collection getSdatRueUnidadEducativa()       Returns the current record's "SdatRueUnidadEducativa" collection
  * @method Doctrine_Collection getSdatSieCurso()                 Returns the current record's "SdatSieCurso" collection
+ * @method Doctrine_Collection getSdatSieCursotecnica()          Returns the current record's "SdatSieCursotecnica" collection
  * @method ClaTurno            setIdTurno()                      Sets the current record's "id_turno" value
  * @method ClaTurno            setDescTurno()                    Sets the current record's "desc_turno" value
  * @method ClaTurno            setDescAbrv()                     Sets the current record's "desc_abrv" value
@@ -47,6 +49,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaTurno', 'doctrine');
  * @method ClaTurno            setDatSieUnidadEducativa()        Sets the current record's "DatSieUnidadEducativa" collection
  * @method ClaTurno            setSdatRueUnidadEducativa()       Sets the current record's "SdatRueUnidadEducativa" collection
  * @method ClaTurno            setSdatSieCurso()                 Sets the current record's "SdatSieCurso" collection
+ * @method ClaTurno            setSdatSieCursotecnica()          Sets the current record's "SdatSieCursotecnica" collection
  * 
  * @package    alternativa
  * @subpackage model
@@ -126,6 +129,10 @@ abstract class BaseClaTurno extends sfDoctrineRecord
              'foreign' => 'turno_id'));
 
         $this->hasMany('SdatSieCurso', array(
+             'local' => 'id_turno',
+             'foreign' => 'turno_id'));
+
+        $this->hasMany('SdatSieCursotecnica', array(
              'local' => 'id_turno',
              'foreign' => 'turno_id'));
     }

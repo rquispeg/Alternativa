@@ -671,6 +671,35 @@ ClaAcciones:
       local: proceso_id
       foreign: id_proceso
       type: one
+ClaAcreditacion:
+  connection: doctrine
+  tableName: cla_acreditacion
+  columns:
+    id:
+      type: integer(2)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: false
+    desc_acreditacion:
+      type: string(45)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    cod_org_curr_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ClaOrgCurricular:
+      local: cod_org_curr_id
+      foreign: cod_org_curr
+      type: one
 ClaArea:
   connection: doctrine
   tableName: cla_area
@@ -2029,6 +2058,15 @@ ClaEstadoMatricula:
       local: id_estado_matricula
       foreign: estado_matricula_inicio_id
       type: many
+    SdatRdeInscripcionTecnica:
+      local: id_estado_matricula
+      foreign: estado_matricula_fin_id
+      type: many
+    SdatRdeInscripcionTecnica_3:
+      class: SdatRdeInscripcionTecnica
+      local: id_estado_matricula
+      foreign: estado_matricula_inicio_id
+      type: many
     SdatRdeInscripcionTmp:
       local: id_estado_matricula
       foreign: estado_matricula_fin_id
@@ -2429,6 +2467,20 @@ ClaGrado:
       type: many
     SdatSieCurso_4:
       class: SdatSieCurso
+      local: nivel_id
+      foreign: nivel_id
+      type: many
+    SdatSieCursotecnica:
+      local: id_grado
+      foreign: grado_id
+      type: many
+    SdatSieCursotecnica_2:
+      class: SdatSieCursotecnica
+      local: ciclo_id
+      foreign: ciclo_id
+      type: many
+    SdatSieCursotecnica_3:
+      class: SdatSieCursotecnica
       local: nivel_id
       foreign: nivel_id
       type: many
@@ -2982,6 +3034,10 @@ ClaOrgCurricular:
       notnull: true
       autoincrement: false
   relations:
+    ClaAcreditacion:
+      local: cod_org_curr
+      foreign: cod_org_curr_id
+      type: many
     ClaNivel:
       local: cod_org_curr
       foreign: cod_org_curr_id
@@ -3877,6 +3933,10 @@ ClaTurno:
       foreign: turno_id
       type: many
     SdatSieCurso:
+      local: id_turno
+      foreign: turno_id
+      type: many
+    SdatSieCursotecnica:
       local: id_turno
       foreign: turno_id
       type: many
@@ -7427,6 +7487,15 @@ DatAltCursooferta:
       local: cod_ue_id
       foreign: cod_ue_id
       type: many
+    SdatSieCursotecnica:
+      local: curso_oferta_id
+      foreign: curso_oferta_id
+      type: many
+    SdatSieCursotecnica_9:
+      class: SdatSieCursotecnica
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: many
 DatAltCursoofertaPeriodo_:
   connection: doctrine
   tableName: dat_alt_cursooferta_periodo_
@@ -10620,6 +10689,10 @@ DatRdeEstudiante:
       local: codigo_rude
       foreign: codigo_rude_id
       type: many
+    SdatRdeInscripcionTecnica:
+      local: codigo_rude
+      foreign: codigo_rude_id
+      type: many
     SdatRdeInscripcionTmp:
       local: codigo_rude
       foreign: codigo_rude_id
@@ -12545,6 +12618,27 @@ DatRiesgos:
       local: id_user
       foreign: id
       type: one
+DatRueAcreditacion:
+  connection: doctrine
+  tableName: dat_rue_acreditacion
+  columns:
+    cod_ue_id:
+      type: string(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    acreditacion_id:
+      type: integer(2)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+  relations:
+    DatRueUnidadEducativa:
+      local: cod_ue_id
+      foreign: cod_ue
+      type: one
 DatRueCursoTramite:
   connection: doctrine
   tableName: dat_rue_curso_tramite
@@ -13217,6 +13311,10 @@ DatRueUnidadEducativa:
     DatRiesgos:
       local: cod_ue
       foreign: codigo_ue_id
+      type: many
+    DatRueAcreditacion:
+      local: cod_ue
+      foreign: cod_ue_id
       type: many
     DatRueNivel:
       local: cod_ue
@@ -20983,10 +21081,10 @@ SdatRdeInscripcion:
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     fecha_inscripcion:
-      type: date(25)
+      type: timestamp(25)
       fixed: false
       unsigned: false
       primary: false
@@ -20997,7 +21095,7 @@ SdatRdeInscripcion:
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
   relations:
     DatRdeEstudiante:
@@ -21051,6 +21149,199 @@ SdatRdeInscripcion:
       class: SdatSieCurso
       local: turno_id
       foreign: turno_id
+      type: one
+SdatRdeInscripcionTecnica:
+  connection: doctrine
+  tableName: sdat_rde_inscripcion_tecnica
+  columns:
+    inscripcion_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    gestion_id:
+      type: integer(2)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    codigo_rude_id:
+      type: string(18)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    num_matricula:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    cod_ue_id:
+      type: string(8)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    periodo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    sub_cea_id:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: false
+      notnull: true
+      autoincrement: false
+    grado_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ciclo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    nivel_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    paralelo:
+      type: string(2)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    turno_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    curso_oferta_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    estado_matricula_inicio_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    estado_matricula_fin_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    observacion_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    observacion:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    fecha_inscripcion:
+      type: timestamp(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    apreciacion_id:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    DatRdeEstudiante:
+      local: codigo_rude_id
+      foreign: codigo_rude
+      type: one
+    ClaEstadoMatricula:
+      local: estado_matricula_fin_id
+      foreign: id_estado_matricula
+      type: one
+    ClaEstadoMatricula_3:
+      class: ClaEstadoMatricula
+      local: estado_matricula_inicio_id
+      foreign: id_estado_matricula
+      type: one
+    SdatSieCursotecnica:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: one
+    SdatSieCursotecnica_5:
+      class: SdatSieCursotecnica
+      local: periodo_id
+      foreign: periodo_id
+      type: one
+    SdatSieCursotecnica_6:
+      class: SdatSieCursotecnica
+      local: sub_cea_id
+      foreign: sub_cea_id
+      type: one
+    SdatSieCursotecnica_7:
+      class: SdatSieCursotecnica
+      local: grado_id
+      foreign: grado_id
+      type: one
+    SdatSieCursotecnica_8:
+      class: SdatSieCursotecnica
+      local: ciclo_id
+      foreign: ciclo_id
+      type: one
+    SdatSieCursotecnica_9:
+      class: SdatSieCursotecnica
+      local: nivel_id
+      foreign: nivel_id
+      type: one
+    SdatSieCursotecnica_10:
+      class: SdatSieCursotecnica
+      local: paralelo
+      foreign: paralelo
+      type: one
+    SdatSieCursotecnica_11:
+      class: SdatSieCursotecnica
+      local: turno_id
+      foreign: turno_id
+      type: one
+    SdatSieCursotecnica_12:
+      class: SdatSieCursotecnica
+      local: curso_oferta_id
+      foreign: curso_oferta_id
       type: one
 SdatRdeInscripcionTmp:
   connection: doctrine
@@ -22046,6 +22337,20 @@ SdatRueUnidadEducativa:
       local: periodo_id
       foreign: periodo_id
       type: many
+    SdatSieCursotecnica:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: many
+    SdatSieCursotecnica_6:
+      class: SdatSieCursotecnica
+      local: sub_cea
+      foreign: sub_cea_id
+      type: many
+    SdatSieCursotecnica_7:
+      class: SdatSieCursotecnica
+      local: periodo_id
+      foreign: periodo_id
+      type: many
     SdatSieDocente:
       local: cod_ue_id
       foreign: cod_ue_id
@@ -22494,6 +22799,197 @@ SdatSieCurso:
       class: SdatSlnCursoOferta
       local: turno_id
       foreign: turno_id
+      type: many
+SdatSieCursotecnica:
+  connection: doctrine
+  tableName: sdat_sie_cursotecnica
+  columns:
+    cod_ue_id:
+      type: string(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    sub_cea_id:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: false
+    gestion_id:
+      type: integer(2)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    operativo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: true
+      autoincrement: false
+    periodo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    nivel_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    ciclo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    grado_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    paralelo:
+      type: string(2)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    multigrado:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    turno_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    modalidad_ensenanza_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: true
+      autoincrement: false
+    nro_materias:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    consolidado:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    curso_oferta_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+  relations:
+    ClaGrado:
+      local: grado_id
+      foreign: id_grado
+      type: one
+    ClaGrado_2:
+      class: ClaGrado
+      local: ciclo_id
+      foreign: ciclo_id
+      type: one
+    ClaGrado_3:
+      class: ClaGrado
+      local: nivel_id
+      foreign: nivel_id
+      type: one
+    ClaTurno:
+      local: turno_id
+      foreign: id_turno
+      type: one
+    SdatRueUnidadEducativa:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: one
+    SdatRueUnidadEducativa_6:
+      class: SdatRueUnidadEducativa
+      local: sub_cea_id
+      foreign: sub_cea
+      type: one
+    SdatRueUnidadEducativa_7:
+      class: SdatRueUnidadEducativa
+      local: periodo_id
+      foreign: periodo_id
+      type: one
+    DatAltCursooferta:
+      local: curso_oferta_id
+      foreign: curso_oferta_id
+      type: one
+    DatAltCursooferta_9:
+      class: DatAltCursooferta
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: one
+    SdatRdeInscripcionTecnica:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: many
+    SdatRdeInscripcionTecnica_5:
+      class: SdatRdeInscripcionTecnica
+      local: periodo_id
+      foreign: periodo_id
+      type: many
+    SdatRdeInscripcionTecnica_6:
+      class: SdatRdeInscripcionTecnica
+      local: sub_cea_id
+      foreign: sub_cea_id
+      type: many
+    SdatRdeInscripcionTecnica_7:
+      class: SdatRdeInscripcionTecnica
+      local: grado_id
+      foreign: grado_id
+      type: many
+    SdatRdeInscripcionTecnica_8:
+      class: SdatRdeInscripcionTecnica
+      local: ciclo_id
+      foreign: ciclo_id
+      type: many
+    SdatRdeInscripcionTecnica_9:
+      class: SdatRdeInscripcionTecnica
+      local: nivel_id
+      foreign: nivel_id
+      type: many
+    SdatRdeInscripcionTecnica_10:
+      class: SdatRdeInscripcionTecnica
+      local: paralelo
+      foreign: paralelo
+      type: many
+    SdatRdeInscripcionTecnica_11:
+      class: SdatRdeInscripcionTecnica
+      local: turno_id
+      foreign: turno_id
+      type: many
+    SdatRdeInscripcionTecnica_12:
+      class: SdatRdeInscripcionTecnica
+      local: curso_oferta_id
+      foreign: curso_oferta_id
       type: many
 SdatSieDocente:
   connection: doctrine

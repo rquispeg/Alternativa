@@ -51,6 +51,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRdeEstudiante', 'doctrine');
  * @property Doctrine_Collection $HisRdeInscripcion
  * @property Doctrine_Collection $SdatRdeDatosapoderado
  * @property Doctrine_Collection $SdatRdeInscripcion
+ * @property Doctrine_Collection $SdatRdeInscripcionTecnica
  * @property Doctrine_Collection $SdatRdeInscripcionTmp
  * @property Doctrine_Collection $VisDplDiplomas
  * 
@@ -98,6 +99,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRdeEstudiante', 'doctrine');
  * @method Doctrine_Collection getHisRdeInscripcion()         Returns the current record's "HisRdeInscripcion" collection
  * @method Doctrine_Collection getSdatRdeDatosapoderado()     Returns the current record's "SdatRdeDatosapoderado" collection
  * @method Doctrine_Collection getSdatRdeInscripcion()        Returns the current record's "SdatRdeInscripcion" collection
+ * @method Doctrine_Collection getSdatRdeInscripcionTecnica() Returns the current record's "SdatRdeInscripcionTecnica" collection
  * @method Doctrine_Collection getSdatRdeInscripcionTmp()     Returns the current record's "SdatRdeInscripcionTmp" collection
  * @method Doctrine_Collection getVisDplDiplomas()            Returns the current record's "VisDplDiplomas" collection
  * @method DatRdeEstudiante    setCodigoRude()                Sets the current record's "codigo_rude" value
@@ -144,6 +146,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatRdeEstudiante', 'doctrine');
  * @method DatRdeEstudiante    setHisRdeInscripcion()         Sets the current record's "HisRdeInscripcion" collection
  * @method DatRdeEstudiante    setSdatRdeDatosapoderado()     Sets the current record's "SdatRdeDatosapoderado" collection
  * @method DatRdeEstudiante    setSdatRdeInscripcion()        Sets the current record's "SdatRdeInscripcion" collection
+ * @method DatRdeEstudiante    setSdatRdeInscripcionTecnica() Sets the current record's "SdatRdeInscripcionTecnica" collection
  * @method DatRdeEstudiante    setSdatRdeInscripcionTmp()     Sets the current record's "SdatRdeInscripcionTmp" collection
  * @method DatRdeEstudiante    setVisDplDiplomas()            Sets the current record's "VisDplDiplomas" collection
  * 
@@ -446,6 +449,10 @@ abstract class BaseDatRdeEstudiante extends sfDoctrineRecord
              'foreign' => 'codigo_rude_id'));
 
         $this->hasMany('SdatRdeInscripcion', array(
+             'local' => 'codigo_rude',
+             'foreign' => 'codigo_rude_id'));
+
+        $this->hasMany('SdatRdeInscripcionTecnica', array(
              'local' => 'codigo_rude',
              'foreign' => 'codigo_rude_id'));
 

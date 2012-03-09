@@ -27,6 +27,8 @@ Doctrine_Manager::getInstance()->bindComponent('ClaEstadoMatricula', 'doctrine')
  * @property Doctrine_Collection $HisRdeInscripcion_3
  * @property Doctrine_Collection $SdatRdeInscripcion
  * @property Doctrine_Collection $SdatRdeInscripcion_3
+ * @property Doctrine_Collection $SdatRdeInscripcionTecnica
+ * @property Doctrine_Collection $SdatRdeInscripcionTecnica_3
  * @property Doctrine_Collection $SdatRdeInscripcionTmp
  * @property Doctrine_Collection $SdatRdeInscripcionTmp_3
  * 
@@ -50,6 +52,8 @@ Doctrine_Manager::getInstance()->bindComponent('ClaEstadoMatricula', 'doctrine')
  * @method Doctrine_Collection getHisRdeInscripcion3()          Returns the current record's "HisRdeInscripcion_3" collection
  * @method Doctrine_Collection getSdatRdeInscripcion()          Returns the current record's "SdatRdeInscripcion" collection
  * @method Doctrine_Collection getSdatRdeInscripcion3()         Returns the current record's "SdatRdeInscripcion_3" collection
+ * @method Doctrine_Collection getSdatRdeInscripcionTecnica()   Returns the current record's "SdatRdeInscripcionTecnica" collection
+ * @method Doctrine_Collection getSdatRdeInscripcionTecnica3()  Returns the current record's "SdatRdeInscripcionTecnica_3" collection
  * @method Doctrine_Collection getSdatRdeInscripcionTmp()       Returns the current record's "SdatRdeInscripcionTmp" collection
  * @method Doctrine_Collection getSdatRdeInscripcionTmp3()      Returns the current record's "SdatRdeInscripcionTmp_3" collection
  * @method ClaEstadoMatricula  setIdEstadoMatricula()           Sets the current record's "id_estado_matricula" value
@@ -72,6 +76,8 @@ Doctrine_Manager::getInstance()->bindComponent('ClaEstadoMatricula', 'doctrine')
  * @method ClaEstadoMatricula  setHisRdeInscripcion3()          Sets the current record's "HisRdeInscripcion_3" collection
  * @method ClaEstadoMatricula  setSdatRdeInscripcion()          Sets the current record's "SdatRdeInscripcion" collection
  * @method ClaEstadoMatricula  setSdatRdeInscripcion3()         Sets the current record's "SdatRdeInscripcion_3" collection
+ * @method ClaEstadoMatricula  setSdatRdeInscripcionTecnica()   Sets the current record's "SdatRdeInscripcionTecnica" collection
+ * @method ClaEstadoMatricula  setSdatRdeInscripcionTecnica3()  Sets the current record's "SdatRdeInscripcionTecnica_3" collection
  * @method ClaEstadoMatricula  setSdatRdeInscripcionTmp()       Sets the current record's "SdatRdeInscripcionTmp" collection
  * @method ClaEstadoMatricula  setSdatRdeInscripcionTmp3()      Sets the current record's "SdatRdeInscripcionTmp_3" collection
  * 
@@ -181,6 +187,14 @@ abstract class BaseClaEstadoMatricula extends sfDoctrineRecord
              'foreign' => 'estado_matricula_fin_id'));
 
         $this->hasMany('SdatRdeInscripcion as SdatRdeInscripcion_3', array(
+             'local' => 'id_estado_matricula',
+             'foreign' => 'estado_matricula_inicio_id'));
+
+        $this->hasMany('SdatRdeInscripcionTecnica', array(
+             'local' => 'id_estado_matricula',
+             'foreign' => 'estado_matricula_fin_id'));
+
+        $this->hasMany('SdatRdeInscripcionTecnica as SdatRdeInscripcionTecnica_3', array(
              'local' => 'id_estado_matricula',
              'foreign' => 'estado_matricula_inicio_id'));
 

@@ -32,7 +32,7 @@ abstract class BaseSdatRdeInscripcionForm extends BaseFormDoctrine
       'cod_ue_procedencia_id'      => new sfWidgetFormInputText(),
       'observacion_id'             => new sfWidgetFormInputText(),
       'observacion'                => new sfWidgetFormInputText(),
-      'fecha_inscripcion'          => new sfWidgetFormDate(),
+      'fecha_inscripcion'          => new sfWidgetFormDateTime(),
       'apreciacion_id'             => new sfWidgetFormInputText(),
     ));
 
@@ -53,9 +53,9 @@ abstract class BaseSdatRdeInscripcionForm extends BaseFormDoctrine
       'estado_matricula_fin_id'    => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEstadoMatricula'))),
       'cod_ue_procedencia_id'      => new sfValidatorString(array('max_length' => 8)),
       'observacion_id'             => new sfValidatorInteger(),
-      'observacion'                => new sfValidatorString(array('max_length' => 255)),
-      'fecha_inscripcion'          => new sfValidatorDate(),
-      'apreciacion_id'             => new sfValidatorString(array('max_length' => 255)),
+      'observacion'                => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'fecha_inscripcion'          => new sfValidatorDateTime(),
+      'apreciacion_id'             => new sfValidatorString(array('max_length' => 255, 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('sdat_rde_inscripcion[%s]');

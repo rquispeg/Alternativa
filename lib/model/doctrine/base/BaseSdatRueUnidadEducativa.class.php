@@ -64,6 +64,9 @@ Doctrine_Manager::getInstance()->bindComponent('SdatRueUnidadEducativa', 'doctri
  * @property Doctrine_Collection $SdatSieCurso
  * @property Doctrine_Collection $SdatSieCurso_13
  * @property Doctrine_Collection $SdatSieCurso_14
+ * @property Doctrine_Collection $SdatSieCursotecnica
+ * @property Doctrine_Collection $SdatSieCursotecnica_6
+ * @property Doctrine_Collection $SdatSieCursotecnica_7
  * @property Doctrine_Collection $SdatSieDocente
  * @property Doctrine_Collection $SdatSieDocente_5
  * @property Doctrine_Collection $SdatSieDocente_6
@@ -125,6 +128,9 @@ Doctrine_Manager::getInstance()->bindComponent('SdatRueUnidadEducativa', 'doctri
  * @method Doctrine_Collection    getSdatSieCurso()                       Returns the current record's "SdatSieCurso" collection
  * @method Doctrine_Collection    getSdatSieCurso13()                     Returns the current record's "SdatSieCurso_13" collection
  * @method Doctrine_Collection    getSdatSieCurso14()                     Returns the current record's "SdatSieCurso_14" collection
+ * @method Doctrine_Collection    getSdatSieCursotecnica()                Returns the current record's "SdatSieCursotecnica" collection
+ * @method Doctrine_Collection    getSdatSieCursotecnica6()               Returns the current record's "SdatSieCursotecnica_6" collection
+ * @method Doctrine_Collection    getSdatSieCursotecnica7()               Returns the current record's "SdatSieCursotecnica_7" collection
  * @method Doctrine_Collection    getSdatSieDocente()                     Returns the current record's "SdatSieDocente" collection
  * @method Doctrine_Collection    getSdatSieDocente5()                    Returns the current record's "SdatSieDocente_5" collection
  * @method Doctrine_Collection    getSdatSieDocente6()                    Returns the current record's "SdatSieDocente_6" collection
@@ -185,6 +191,9 @@ Doctrine_Manager::getInstance()->bindComponent('SdatRueUnidadEducativa', 'doctri
  * @method SdatRueUnidadEducativa setSdatSieCurso()                       Sets the current record's "SdatSieCurso" collection
  * @method SdatRueUnidadEducativa setSdatSieCurso13()                     Sets the current record's "SdatSieCurso_13" collection
  * @method SdatRueUnidadEducativa setSdatSieCurso14()                     Sets the current record's "SdatSieCurso_14" collection
+ * @method SdatRueUnidadEducativa setSdatSieCursotecnica()                Sets the current record's "SdatSieCursotecnica" collection
+ * @method SdatRueUnidadEducativa setSdatSieCursotecnica6()               Sets the current record's "SdatSieCursotecnica_6" collection
+ * @method SdatRueUnidadEducativa setSdatSieCursotecnica7()               Sets the current record's "SdatSieCursotecnica_7" collection
  * @method SdatRueUnidadEducativa setSdatSieDocente()                     Sets the current record's "SdatSieDocente" collection
  * @method SdatRueUnidadEducativa setSdatSieDocente5()                    Sets the current record's "SdatSieDocente_5" collection
  * @method SdatRueUnidadEducativa setSdatSieDocente6()                    Sets the current record's "SdatSieDocente_6" collection
@@ -643,6 +652,18 @@ abstract class BaseSdatRueUnidadEducativa extends sfDoctrineRecord
              'foreign' => 'sub_cea_id'));
 
         $this->hasMany('SdatSieCurso as SdatSieCurso_14', array(
+             'local' => 'periodo_id',
+             'foreign' => 'periodo_id'));
+
+        $this->hasMany('SdatSieCursotecnica', array(
+             'local' => 'cod_ue_id',
+             'foreign' => 'cod_ue_id'));
+
+        $this->hasMany('SdatSieCursotecnica as SdatSieCursotecnica_6', array(
+             'local' => 'sub_cea',
+             'foreign' => 'sub_cea_id'));
+
+        $this->hasMany('SdatSieCursotecnica as SdatSieCursotecnica_7', array(
              'local' => 'periodo_id',
              'foreign' => 'periodo_id'));
 

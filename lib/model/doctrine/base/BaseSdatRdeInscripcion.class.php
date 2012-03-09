@@ -24,7 +24,7 @@ Doctrine_Manager::getInstance()->bindComponent('SdatRdeInscripcion', 'doctrine')
  * @property string $cod_ue_procedencia_id
  * @property integer $observacion_id
  * @property string $observacion
- * @property date $fecha_inscripcion
+ * @property timestamp $fecha_inscripcion
  * @property string $apreciacion_id
  * @property DatRdeEstudiante $DatRdeEstudiante
  * @property ClaEstadoMatricula $ClaEstadoMatricula
@@ -55,7 +55,7 @@ Doctrine_Manager::getInstance()->bindComponent('SdatRdeInscripcion', 'doctrine')
  * @method string             getCodUeProcedenciaId()         Returns the current record's "cod_ue_procedencia_id" value
  * @method integer            getObservacionId()              Returns the current record's "observacion_id" value
  * @method string             getObservacion()                Returns the current record's "observacion" value
- * @method date               getFechaInscripcion()           Returns the current record's "fecha_inscripcion" value
+ * @method timestamp          getFechaInscripcion()           Returns the current record's "fecha_inscripcion" value
  * @method string             getApreciacionId()              Returns the current record's "apreciacion_id" value
  * @method DatRdeEstudiante   getDatRdeEstudiante()           Returns the current record's "DatRdeEstudiante" value
  * @method ClaEstadoMatricula getClaEstadoMatricula()         Returns the current record's "ClaEstadoMatricula" value
@@ -256,12 +256,12 @@ abstract class BaseSdatRdeInscripcion extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => true,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => '255',
              ));
-        $this->hasColumn('fecha_inscripcion', 'date', 25, array(
-             'type' => 'date',
+        $this->hasColumn('fecha_inscripcion', 'timestamp', 25, array(
+             'type' => 'timestamp',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
@@ -274,7 +274,7 @@ abstract class BaseSdatRdeInscripcion extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => true,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => '255',
              ));

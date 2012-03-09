@@ -36,6 +36,13 @@ class inicioComponents extends sfComponents
   public function executeBuscarsubcentros(){
         $this->subcentros = new DatRueSubcentroForm();
   }
+  
+  /**
+  * Componenete para la Busqueda de Acreditaciones que contiene el Centro de Educación Alterntiva 
+  */
+  public function executeListadoacreditaciones(){
+        $this->acreditaciones = new ClaAcreditacionForm();
+  }
 
   /**
   * Componente para la busqueda de acuerdo a la unidad educativa y la gestiï¿½n
@@ -68,11 +75,20 @@ class inicioComponents extends sfComponents
         $this->operativo = new DatSieOperativosEspecialForm();
   }
   
-   public function executeBuscarudealt()
+  public function executeBuscarudealt()
   {
      $this->periodos = Doctrine::getTable('ClaPeriodo')->findAll();
   }
 
+  /**
+  * Compnente con busqueda de acreditacion, mas el rude
+  *
+  */
+  public function executeBuscarudealtacreditacion()
+  {
+     $this->acreditaciones = new ClaAcreditacionForm();
+  }
+  
   public function executeBuscarude()
   {
 
