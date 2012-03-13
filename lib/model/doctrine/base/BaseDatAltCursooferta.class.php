@@ -19,7 +19,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatAltCursooferta', 'doctrine');
  * @property Doctrine_Collection $DatAltModulos
  * @property Doctrine_Collection $DatAltModulos_3
  * @property Doctrine_Collection $SdatSieCursotecnica
- * @property Doctrine_Collection $SdatSieCursotecnica_9
+ * @property Doctrine_Collection $SdatSieCursotecnica_6
  * 
  * @method integer               getCursoOfertaId()             Returns the current record's "curso_oferta_id" value
  * @method string                getCodUeId()                   Returns the current record's "cod_ue_id" value
@@ -33,7 +33,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatAltCursooferta', 'doctrine');
  * @method Doctrine_Collection   getDatAltModulos()             Returns the current record's "DatAltModulos" collection
  * @method Doctrine_Collection   getDatAltModulos3()            Returns the current record's "DatAltModulos_3" collection
  * @method Doctrine_Collection   getSdatSieCursotecnica()       Returns the current record's "SdatSieCursotecnica" collection
- * @method Doctrine_Collection   getSdatSieCursotecnica9()      Returns the current record's "SdatSieCursotecnica_9" collection
+ * @method Doctrine_Collection   getSdatSieCursotecnica6()      Returns the current record's "SdatSieCursotecnica_6" collection
  * @method DatAltCursooferta     setCursoOfertaId()             Sets the current record's "curso_oferta_id" value
  * @method DatAltCursooferta     setCodUeId()                   Sets the current record's "cod_ue_id" value
  * @method DatAltCursooferta     setResolucionAdministrativa()  Sets the current record's "resolucion_administrativa" value
@@ -46,7 +46,7 @@ Doctrine_Manager::getInstance()->bindComponent('DatAltCursooferta', 'doctrine');
  * @method DatAltCursooferta     setDatAltModulos()             Sets the current record's "DatAltModulos" collection
  * @method DatAltCursooferta     setDatAltModulos3()            Sets the current record's "DatAltModulos_3" collection
  * @method DatAltCursooferta     setSdatSieCursotecnica()       Sets the current record's "SdatSieCursotecnica" collection
- * @method DatAltCursooferta     setSdatSieCursotecnica9()      Sets the current record's "SdatSieCursotecnica_9" collection
+ * @method DatAltCursooferta     setSdatSieCursotecnica6()      Sets the current record's "SdatSieCursotecnica_6" collection
  * 
  * @package    alternativa
  * @subpackage model
@@ -134,7 +134,7 @@ abstract class BaseDatAltCursooferta extends sfDoctrineRecord
              'local' => 'curso_oferta_id',
              'foreign' => 'curso_oferta_id'));
 
-        $this->hasMany('SdatSieCursotecnica as SdatSieCursotecnica_9', array(
+        $this->hasMany('SdatSieCursotecnica as SdatSieCursotecnica_6', array(
              'local' => 'cod_ue_id',
              'foreign' => 'cod_ue_id'));
     }

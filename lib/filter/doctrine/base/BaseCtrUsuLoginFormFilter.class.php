@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseCtrUsuLoginFormFilter extends BaseFormFilterDoctrine
@@ -16,12 +16,14 @@ abstract class BaseCtrUsuLoginFormFilter extends BaseFormFilterDoctrine
       'usuario_id'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuUsuario'), 'add_empty' => true)),
       'ip'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'fecha_ingreso' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'sistema_id'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatUsuSistema'), 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
       'usuario_id'    => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatUsuUsuario'), 'column' => 'id')),
       'ip'            => new sfValidatorPass(array('required' => false)),
       'fecha_ingreso' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
+      'sistema_id'    => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatUsuSistema'), 'column' => 'id_sistema')),
     ));
 
     $this->widgetSchema->setNameFormat('ctr_usu_login_filters[%s]');
@@ -45,6 +47,7 @@ abstract class BaseCtrUsuLoginFormFilter extends BaseFormFilterDoctrine
       'usuario_id'    => 'ForeignKey',
       'ip'            => 'Text',
       'fecha_ingreso' => 'Date',
+      'sistema_id'    => 'ForeignKey',
     );
   }
 }

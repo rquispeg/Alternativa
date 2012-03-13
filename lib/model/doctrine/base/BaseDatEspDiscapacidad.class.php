@@ -12,17 +12,20 @@ Doctrine_Manager::getInstance()->bindComponent('DatEspDiscapacidad', 'doctrine')
  * @property integer $id_area_esp
  * @property ClaAreaEspecial $ClaAreaEspecial
  * @property Doctrine_Collection $DatEspCurso
+ * @property Doctrine_Collection $SdatSieCursoespecial
  * 
- * @method integer             getDiscapacidadId()  Returns the current record's "discapacidad_id" value
- * @method string              getDiscapacidad()    Returns the current record's "discapacidad" value
- * @method integer             getIdAreaEsp()       Returns the current record's "id_area_esp" value
- * @method ClaAreaEspecial     getClaAreaEspecial() Returns the current record's "ClaAreaEspecial" value
- * @method Doctrine_Collection getDatEspCurso()     Returns the current record's "DatEspCurso" collection
- * @method DatEspDiscapacidad  setDiscapacidadId()  Sets the current record's "discapacidad_id" value
- * @method DatEspDiscapacidad  setDiscapacidad()    Sets the current record's "discapacidad" value
- * @method DatEspDiscapacidad  setIdAreaEsp()       Sets the current record's "id_area_esp" value
- * @method DatEspDiscapacidad  setClaAreaEspecial() Sets the current record's "ClaAreaEspecial" value
- * @method DatEspDiscapacidad  setDatEspCurso()     Sets the current record's "DatEspCurso" collection
+ * @method integer             getDiscapacidadId()       Returns the current record's "discapacidad_id" value
+ * @method string              getDiscapacidad()         Returns the current record's "discapacidad" value
+ * @method integer             getIdAreaEsp()            Returns the current record's "id_area_esp" value
+ * @method ClaAreaEspecial     getClaAreaEspecial()      Returns the current record's "ClaAreaEspecial" value
+ * @method Doctrine_Collection getDatEspCurso()          Returns the current record's "DatEspCurso" collection
+ * @method Doctrine_Collection getSdatSieCursoespecial() Returns the current record's "SdatSieCursoespecial" collection
+ * @method DatEspDiscapacidad  setDiscapacidadId()       Sets the current record's "discapacidad_id" value
+ * @method DatEspDiscapacidad  setDiscapacidad()         Sets the current record's "discapacidad" value
+ * @method DatEspDiscapacidad  setIdAreaEsp()            Sets the current record's "id_area_esp" value
+ * @method DatEspDiscapacidad  setClaAreaEspecial()      Sets the current record's "ClaAreaEspecial" value
+ * @method DatEspDiscapacidad  setDatEspCurso()          Sets the current record's "DatEspCurso" collection
+ * @method DatEspDiscapacidad  setSdatSieCursoespecial() Sets the current record's "SdatSieCursoespecial" collection
  * 
  * @package    alternativa
  * @subpackage model
@@ -70,6 +73,10 @@ abstract class BaseDatEspDiscapacidad extends sfDoctrineRecord
              'foreign' => 'id_area_esp'));
 
         $this->hasMany('DatEspCurso', array(
+             'local' => 'discapacidad_id',
+             'foreign' => 'discapacidad_id'));
+
+        $this->hasMany('SdatSieCursoespecial', array(
              'local' => 'discapacidad_id',
              'foreign' => 'discapacidad_id'));
     }

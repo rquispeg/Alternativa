@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseCtrRdeEstudiante2FormFilter extends BaseFormFilterDoctrine
@@ -13,7 +13,6 @@ abstract class BaseCtrRdeEstudiante2FormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'codigo_rude'         => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdeEstudiante'), 'add_empty' => true)),
       'gestion_id'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'carnet_identidad'    => new sfWidgetFormFilterInput(),
       'paterno'             => new sfWidgetFormFilterInput(),
@@ -35,7 +34,6 @@ abstract class BaseCtrRdeEstudiante2FormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
-      'codigo_rude'         => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatRdeEstudiante'), 'column' => 'codigo_rude')),
       'gestion_id'          => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'carnet_identidad'    => new sfValidatorPass(array('required' => false)),
       'paterno'             => new sfValidatorPass(array('required' => false)),
@@ -74,7 +72,7 @@ abstract class BaseCtrRdeEstudiante2FormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'                  => 'Number',
-      'codigo_rude'         => 'ForeignKey',
+      'codigo_rude'         => 'Text',
       'gestion_id'          => 'Number',
       'carnet_identidad'    => 'Text',
       'paterno'             => 'Text',

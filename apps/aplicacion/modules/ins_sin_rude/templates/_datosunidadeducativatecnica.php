@@ -48,22 +48,7 @@ DATOS DEL CENTRO DE EDUCACI&Oacute;N ALTERNATIVA
         </tr>				
     </table>
     <?php echo ui_end_content()?>
-<?php echo ui_end_content_panel()?>
-      <div style="margin-left: auto;margin-right: auto; text-align: center;padding-top: 15px;padding-bottom: 15px;">
-          <input type="button" value="Inscribir" id ="btnGrabar" onclick="enviar();" />
-      </div>
+<?php echo ui_end_content_panel()?>   
 
-<script type="text/javascript">
-/* <![CDATA[ */
-function enviar()
-{
-  if(($('#unidad_educativa').val() == -999)||($('#subcea_id').val() == -999)||($('#modalidad_id').val() == -999)||($('#nivel_id').val() == -999)||($('#ciclo_id').val() == -999)||($('#paralelo_id').val() == -999)||($('#turno_id').val() == -999)||($('#estado_id').val() == -999)){
-    alert('Seleccionar todos los parametros para la inscripcion');
-  }
-  else{
-    window.location = '<?php echo url_for('ins_con_rude/registrarinscripciontecnica'); ?>'+'?ue_id='+$('#unidad_educativa').val()+'&subcea_id='+$('#subcea_id').val()+'&periodo_id='+$('#periodo_id').val()+'&modalidad_id='+$('#modalidad_id').val()+'&nivel_id='+$('#nivel_id').val()+'&grado_id='+$('#grado_id').val()+'&paralelo_id='+$('#paralelo_id').val()+'&turno_id='+$('#turno_id').val()+'&rude='+$('#rude').val()+'&estado_id='+$('#estado_id').val()+'&curso_oferta_id='+$('#curso_oferta_id').val();
-  }
-}
-/* ]]> */
-</script>
+
 

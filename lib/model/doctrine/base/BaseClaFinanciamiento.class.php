@@ -17,6 +17,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaFinanciamiento', 'doctrine');
  * @property Doctrine_Collection $DatSieDocente
  * @property Doctrine_Collection $SdatSieAdministrativo
  * @property Doctrine_Collection $SdatSieCurso
+ * @property Doctrine_Collection $SdatSieCursoespecial
  * @property Doctrine_Collection $SdatSieDocente
  * 
  * @method integer               getIdFinanciamiento()       Returns the current record's "id_financiamiento" value
@@ -29,6 +30,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaFinanciamiento', 'doctrine');
  * @method Doctrine_Collection   getDatSieDocente()          Returns the current record's "DatSieDocente" collection
  * @method Doctrine_Collection   getSdatSieAdministrativo()  Returns the current record's "SdatSieAdministrativo" collection
  * @method Doctrine_Collection   getSdatSieCurso()           Returns the current record's "SdatSieCurso" collection
+ * @method Doctrine_Collection   getSdatSieCursoespecial()   Returns the current record's "SdatSieCursoespecial" collection
  * @method Doctrine_Collection   getSdatSieDocente()         Returns the current record's "SdatSieDocente" collection
  * @method ClaFinanciamiento     setIdFinanciamiento()       Sets the current record's "id_financiamiento" value
  * @method ClaFinanciamiento     setDescFinanciamiento()     Sets the current record's "desc_financiamiento" value
@@ -40,6 +42,7 @@ Doctrine_Manager::getInstance()->bindComponent('ClaFinanciamiento', 'doctrine');
  * @method ClaFinanciamiento     setDatSieDocente()          Sets the current record's "DatSieDocente" collection
  * @method ClaFinanciamiento     setSdatSieAdministrativo()  Sets the current record's "SdatSieAdministrativo" collection
  * @method ClaFinanciamiento     setSdatSieCurso()           Sets the current record's "SdatSieCurso" collection
+ * @method ClaFinanciamiento     setSdatSieCursoespecial()   Sets the current record's "SdatSieCursoespecial" collection
  * @method ClaFinanciamiento     setSdatSieDocente()         Sets the current record's "SdatSieDocente" collection
  * 
  * @package    alternativa
@@ -113,6 +116,10 @@ abstract class BaseClaFinanciamiento extends sfDoctrineRecord
              'foreign' => 'financiamiento_id'));
 
         $this->hasMany('SdatSieCurso', array(
+             'local' => 'id_financiamiento',
+             'foreign' => 'fin_des_escolar'));
+
+        $this->hasMany('SdatSieCursoespecial', array(
              'local' => 'id_financiamiento',
              'foreign' => 'fin_des_escolar'));
 

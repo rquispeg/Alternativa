@@ -28,22 +28,23 @@ class cea_crear_inicioActions extends sfActions
 	$gestion = sfConfig::get('app_gestion');
 	$periodo = sfConfig::get('app_periodo');
 	*/
-    //$this->forward('default', 'module');
+    //$this->forward('default', 'module');	
   }
   
   public function executeCrear(sfWebRequest $request)
   {		
 	$this->gestion = sfConfig::get('app_gestion');        
-	$this->periodo = sfConfig::get('app_periodo');
+	// Este periodo esta definido por default por Semestre, para configurar revisar app.yml
+	$this->periodo = $this->getUser()->getAttribute('PERIODO');
 	// Buscando Unidad Educativa
 	$buscar_ue = Doctrine::getTable('RelUsuarioUe')->getCodUE($this->getUser()->getAttribute('USUARIO_ID'));
 	// Asignado Codigo de Unidad Educativa
-	$this->codue = $buscar_ue['cod_ue'];        
+	$this->codue = $buscar_ue['cod_ue'];
+
 	// Recuperando variable de subcentro
 	$param_subcentro = $request->getParameter('dat_rue_subcentro');
 	// Asignando variable de subcentro
 	$this->subcea = $param_subcentro['subcentro_id'];
-	
 	
     //verificamos si tiene permisos para la Centro de Educacion Alternativa
 	
@@ -53,8 +54,7 @@ class cea_crear_inicioActions extends sfActions
         $this->getUser()->setFlash('ue',$this->codue);
         $this->getUser()->setFlash('gestion',$this->gestion);
         $this->unidad_educativa = Doctrine::getTable('SdatRueUnidadEducativa')->find(array($this->codue,$this->subcea,$this->periodo));
-        
-	$this->turnos = Doctrine::getTable('ClaTurno')->findAll();
+ 		$this->turnos = Doctrine::getTable('ClaTurno')->findAll();
         if (!$this->unidad_educativa)		
         {
             // Ejecutando Procedimiento Almacenedao que inserta en la tabla sdat_rue_unidad_Educativa los datos 

@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseDatNclNucleoFormFilter extends BaseFormFilterDoctrine
@@ -17,7 +17,7 @@ abstract class BaseDatNclNucleoFormFilter extends BaseFormFilterDoctrine
       'provincia_id'    => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatNlcSeccionDistrito_3'), 'add_empty' => true)),
       'seccion_id'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatNlcSeccionDistrito'), 'add_empty' => true)),
       'cod_distrito_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatNlcSeccionDistrito_5'), 'add_empty' => true)),
-      'desc_nucleo'     => new sfWidgetFormFilterInput(),
+      'desc_nucleo'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(

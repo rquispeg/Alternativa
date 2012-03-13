@@ -26,11 +26,11 @@ Doctrine_Manager::getInstance()->bindComponent('SdatSieCursotecnica', 'doctrine'
  * @property ClaGrado $ClaGrado_2
  * @property ClaGrado $ClaGrado_3
  * @property ClaTurno $ClaTurno
- * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa
- * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa_6
- * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa_7
  * @property DatAltCursooferta $DatAltCursooferta
- * @property DatAltCursooferta $DatAltCursooferta_9
+ * @property DatAltCursooferta $DatAltCursooferta_6
+ * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa
+ * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa_8
+ * @property SdatRueUnidadEducativa $SdatRueUnidadEducativa_9
  * @property Doctrine_Collection $SdatRdeInscripcionTecnica
  * @property Doctrine_Collection $SdatRdeInscripcionTecnica_5
  * @property Doctrine_Collection $SdatRdeInscripcionTecnica_6
@@ -60,11 +60,11 @@ Doctrine_Manager::getInstance()->bindComponent('SdatSieCursotecnica', 'doctrine'
  * @method ClaGrado               getClaGrado2()                    Returns the current record's "ClaGrado_2" value
  * @method ClaGrado               getClaGrado3()                    Returns the current record's "ClaGrado_3" value
  * @method ClaTurno               getClaTurno()                     Returns the current record's "ClaTurno" value
- * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa()       Returns the current record's "SdatRueUnidadEducativa" value
- * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa6()      Returns the current record's "SdatRueUnidadEducativa_6" value
- * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa7()      Returns the current record's "SdatRueUnidadEducativa_7" value
  * @method DatAltCursooferta      getDatAltCursooferta()            Returns the current record's "DatAltCursooferta" value
- * @method DatAltCursooferta      getDatAltCursooferta9()           Returns the current record's "DatAltCursooferta_9" value
+ * @method DatAltCursooferta      getDatAltCursooferta6()           Returns the current record's "DatAltCursooferta_6" value
+ * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa()       Returns the current record's "SdatRueUnidadEducativa" value
+ * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa8()      Returns the current record's "SdatRueUnidadEducativa_8" value
+ * @method SdatRueUnidadEducativa getSdatRueUnidadEducativa9()      Returns the current record's "SdatRueUnidadEducativa_9" value
  * @method Doctrine_Collection    getSdatRdeInscripcionTecnica()    Returns the current record's "SdatRdeInscripcionTecnica" collection
  * @method Doctrine_Collection    getSdatRdeInscripcionTecnica5()   Returns the current record's "SdatRdeInscripcionTecnica_5" collection
  * @method Doctrine_Collection    getSdatRdeInscripcionTecnica6()   Returns the current record's "SdatRdeInscripcionTecnica_6" collection
@@ -93,11 +93,11 @@ Doctrine_Manager::getInstance()->bindComponent('SdatSieCursotecnica', 'doctrine'
  * @method SdatSieCursotecnica    setClaGrado2()                    Sets the current record's "ClaGrado_2" value
  * @method SdatSieCursotecnica    setClaGrado3()                    Sets the current record's "ClaGrado_3" value
  * @method SdatSieCursotecnica    setClaTurno()                     Sets the current record's "ClaTurno" value
- * @method SdatSieCursotecnica    setSdatRueUnidadEducativa()       Sets the current record's "SdatRueUnidadEducativa" value
- * @method SdatSieCursotecnica    setSdatRueUnidadEducativa6()      Sets the current record's "SdatRueUnidadEducativa_6" value
- * @method SdatSieCursotecnica    setSdatRueUnidadEducativa7()      Sets the current record's "SdatRueUnidadEducativa_7" value
  * @method SdatSieCursotecnica    setDatAltCursooferta()            Sets the current record's "DatAltCursooferta" value
- * @method SdatSieCursotecnica    setDatAltCursooferta9()           Sets the current record's "DatAltCursooferta_9" value
+ * @method SdatSieCursotecnica    setDatAltCursooferta6()           Sets the current record's "DatAltCursooferta_6" value
+ * @method SdatSieCursotecnica    setSdatRueUnidadEducativa()       Sets the current record's "SdatRueUnidadEducativa" value
+ * @method SdatSieCursotecnica    setSdatRueUnidadEducativa8()      Sets the current record's "SdatRueUnidadEducativa_8" value
+ * @method SdatSieCursotecnica    setSdatRueUnidadEducativa9()      Sets the current record's "SdatRueUnidadEducativa_9" value
  * @method SdatSieCursotecnica    setSdatRdeInscripcionTecnica()    Sets the current record's "SdatRdeInscripcionTecnica" collection
  * @method SdatSieCursotecnica    setSdatRdeInscripcionTecnica5()   Sets the current record's "SdatRdeInscripcionTecnica_5" collection
  * @method SdatSieCursotecnica    setSdatRdeInscripcionTecnica6()   Sets the current record's "SdatRdeInscripcionTecnica_6" collection
@@ -270,25 +270,25 @@ abstract class BaseSdatSieCursotecnica extends sfDoctrineRecord
              'local' => 'turno_id',
              'foreign' => 'id_turno'));
 
-        $this->hasOne('SdatRueUnidadEducativa', array(
-             'local' => 'cod_ue_id',
-             'foreign' => 'cod_ue_id'));
-
-        $this->hasOne('SdatRueUnidadEducativa as SdatRueUnidadEducativa_6', array(
-             'local' => 'sub_cea_id',
-             'foreign' => 'sub_cea'));
-
-        $this->hasOne('SdatRueUnidadEducativa as SdatRueUnidadEducativa_7', array(
-             'local' => 'periodo_id',
-             'foreign' => 'periodo_id'));
-
         $this->hasOne('DatAltCursooferta', array(
              'local' => 'curso_oferta_id',
              'foreign' => 'curso_oferta_id'));
 
-        $this->hasOne('DatAltCursooferta as DatAltCursooferta_9', array(
+        $this->hasOne('DatAltCursooferta as DatAltCursooferta_6', array(
              'local' => 'cod_ue_id',
              'foreign' => 'cod_ue_id'));
+
+        $this->hasOne('SdatRueUnidadEducativa', array(
+             'local' => 'cod_ue_id',
+             'foreign' => 'cod_ue_id'));
+
+        $this->hasOne('SdatRueUnidadEducativa as SdatRueUnidadEducativa_8', array(
+             'local' => 'sub_cea_id',
+             'foreign' => 'sub_cea'));
+
+        $this->hasOne('SdatRueUnidadEducativa as SdatRueUnidadEducativa_9', array(
+             'local' => 'periodo_id',
+             'foreign' => 'periodo_id'));
 
         $this->hasMany('SdatRdeInscripcionTecnica', array(
              'local' => 'cod_ue_id',

@@ -35,7 +35,7 @@
 	<input type="hidden" value="<?php echo $acreditacion; ?>" name="dat_rde_estudiante[acreditacion]" id="subsistema_id" />
 	<input type="hidden" value="<?php echo $codue; ?>" name="dat_rde_estudiante[unidad_educativa]" id="unidad_educativa" />
 	<input type="hidden" value="<?php echo $periodo; ?>" name="dat_rde_estudiante[periodo_id]" id="periodo_id" />                
-	<input type="hidden" value="<?php echo $modalidad; ?>" name="dat_rde_estudiante[modalida_id]" id="modalidad_id" />
+	<input type="hidden" value="<?php echo $modalidad; ?>" name="dat_rde_estudiante[modalidad_id]" id="modalidad_id" />
 	<div style="margin-left: auto;margin-right: auto; text-align: center;padding-top: 15px;padding-bottom: 15px;">
 			<input type="button" value="Inscribir" id ="btnGrabar" onclick="enviar();" />
 	</div>

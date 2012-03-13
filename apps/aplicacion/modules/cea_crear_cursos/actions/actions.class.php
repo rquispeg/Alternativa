@@ -27,7 +27,7 @@ class cea_crear_cursosActions extends sfActions
   
    public function executeCiclo(sfWebRequest $request)
   {
-	$this->modalidad = sfConfig::get('app_modalidad');
+	$this->modalidad = $this->getUser()->getAttribute('MODALIDAD');	
     $this->ciclos = doctrine::getTable('ClaGrado')->findByNivelIdAndCicloId($this->modalidad,$request->getParameter('nivel_id'));
   }  
 
@@ -35,8 +35,8 @@ class cea_crear_cursosActions extends sfActions
   public function executeCrear(sfWebRequest $request)
   {
 	$this->gestion = sfConfig::get('app_gestion');        
-	$this->periodo = sfConfig::get('app_periodo');
-	$this->modalidad = sfConfig::get('app_modalidad');
+	$this->periodo = $this->getUser()->getAttribute('PERIODO');
+	$this->modalidad = $this->getUser()->getAttribute('MODALIDAD');	
 	
 	// Buscando Unidad Educativa
 	$buscar_ue = Doctrine::getTable('RelUsuarioUe')->getCodUE($this->getUser()->getAttribute('USUARIO_ID'));
@@ -57,7 +57,12 @@ class cea_crear_cursosActions extends sfActions
         // Consulta de todos los Subcentros habilitados
 		$this->subcentros = Doctrine::getTable('DatRueSubcentro')->findByCodUeId($this->codue);
 		$this->niveles = doctrine::getTable('ClaCiclo')->findByNivelId($this->modalidad);
-		$this->especialidades = doctrine::getTable('DatAltCursooferta')->findByCodUeId($this->codue);
+		if($this->acreditacion == '22'):
+			$this->especialidades = doctrine::getTable('DatAltCursooferta')->findByCodUeId($this->codue);
+		elseif($this->acreditacion == '23'):
+			$this->discapacidades = doctrine::getTable('DatEspDiscapacidad')->findAll();
+		endif;
+			
     }
     else
     {
@@ -124,6 +129,39 @@ class cea_crear_cursosActions extends sfActions
 			$curso->setTurnoId($request->getParameter('turno_id'));
 			$curso->setModalidadEnsenanzaId('1');
 			$curso->setCursoOfertaId($request->getParameter('curso_oferta_id'));
+			$curso->save();
+			 
+			$this->getUser()->setFlash('notice',"EL CURSO SE CREO SATISFACTORIAMENTE");
+			$conn->commit();
+
+		} catch (Doctrine_Exception $e) {
+			$conn->rollback();
+			$this->getUser()->setFlash('notice_error', "HUBO UN ERROR AL CREAR EL CURSO");
+		}
+		//$this->redirect('cea_listado_cursos/listadecursos?cod_ue_id='.$request->getParameter('ue_id').'&sub_cea_id='.$request->getParameter('subcea_id').'&gestion_id='.$this->getUser()->getAttribute('GESTION').'&periodo_id='.$request->getParameter('periodo_id'));
+	}
+  }
+  
+  public function executeGuardarcursoespecial(sfWebRequest $request)
+  {		
+	if($request->getParameter('subsistema_id') == '23'){		
+		$conn = Doctrine_Manager::connection();
+		$conn->beginTransaction();
+		try {
+			 //die($request->getParameter('ue_id').'/'.$request->getParameter('subcea_id').'/'.$request->getParameter('periodo_id'));
+			$curso = new SdatSieCursoespecial();
+			$curso->setCodUeId($request->getParameter('ue_id'));
+			$curso->setSubCeaId($request->getParameter('subcea_id'));
+			$curso->setGestionId(sfConfig::get('app_gestion'));
+			$curso->setOperativoId('1');
+			$curso->setPeriodoId($request->getParameter('periodo_id'));
+			$curso->setNivelId($request->getParameter('modalidad_id'));
+			$curso->setCicloId($request->getParameter('nivel_id'));
+			$curso->setGradoId($request->getParameter('grado_id'));
+			$curso->setParalelo($request->getParameter('paralelo_id'));
+			$curso->setMultigrado('0');
+			$curso->setTurnoId($request->getParameter('turno_id'));			
+			$curso->setDiscapacidadId($request->getParameter('discapacidad_id'));
 			$curso->save();
 			 
 			$this->getUser()->setFlash('notice',"EL CURSO SE CREO SATISFACTORIAMENTE");

@@ -9,14 +9,14 @@
         'icon' => 'newwin',
         'class' => 'ui-widget-header ui-corner-all',
         'style' => 'top: 3px; left: 20px; height:20px;font-family: arial') ) ?>
-    Seleccione la Modalidad de Educaci&oacute;n
+    Seleccione el &Aacute;rea de Educaci&oacute;n
     <?php echo ui_end_title() ?>
     <?php echo ui_init_content()?>
     <form id="myForm" action="#">
         <table align="center" style="width: 100%;padding:10px;">            
 		<tr>
 			<td>
-			   Modalidad de Educaci&oacute;n
+			   &Aacute;rea de Educaci&oacute;n
 			</td>
 			<td>
 				<?php echo $acreditaciones['acreditacion_id']->render(); ?>		

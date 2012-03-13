@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseDatSieDocenteadministrativoFormFilter extends BaseFormFilterDoctrine
@@ -13,20 +13,24 @@ abstract class BaseDatSieDocenteadministrativoFormFilter extends BaseFormFilterD
   public function setup()
   {
     $this->setWidgets(array(
-      'nombre_completo'  => new sfWidgetFormFilterInput(),
-      'fecha_nacimiento' => new sfWidgetFormFilterInput(),
-      'genero'           => new sfWidgetFormFilterInput(),
-      'formacion'        => new sfWidgetFormFilterInput(),
-      'especialidad'     => new sfWidgetFormFilterInput(),
+      'paterno'          => new sfWidgetFormFilterInput(),
+      'materno'          => new sfWidgetFormFilterInput(),
+      'nombre'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'fecha_nacimiento' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'genero'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'formacion_id'     => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaFormacion'), 'add_empty' => true)),
+      'especialidad_id'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaEspecialidad'), 'add_empty' => true)),
       'rda_id'           => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatRdaDocentesadministrativos'), 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
-      'nombre_completo'  => new sfValidatorPass(array('required' => false)),
-      'fecha_nacimiento' => new sfValidatorPass(array('required' => false)),
+      'paterno'          => new sfValidatorPass(array('required' => false)),
+      'materno'          => new sfValidatorPass(array('required' => false)),
+      'nombre'           => new sfValidatorPass(array('required' => false)),
+      'fecha_nacimiento' => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDateTime(array('required' => false)))),
       'genero'           => new sfValidatorPass(array('required' => false)),
-      'formacion'        => new sfValidatorPass(array('required' => false)),
-      'especialidad'     => new sfValidatorPass(array('required' => false)),
+      'formacion_id'     => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('ClaFormacion'), 'column' => 'id_formacion')),
+      'especialidad_id'  => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('ClaEspecialidad'), 'column' => 'id_especialidad')),
       'rda_id'           => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatRdaDocentesadministrativos'), 'column' => 'rda')),
     ));
 
@@ -47,12 +51,14 @@ abstract class BaseDatSieDocenteadministrativoFormFilter extends BaseFormFilterD
   public function getFields()
   {
     return array(
-      'ci'               => 'Text',
-      'nombre_completo'  => 'Text',
-      'fecha_nacimiento' => 'Text',
+      'ci'               => 'Number',
+      'paterno'          => 'Text',
+      'materno'          => 'Text',
+      'nombre'           => 'Text',
+      'fecha_nacimiento' => 'Date',
       'genero'           => 'Text',
-      'formacion'        => 'Text',
-      'especialidad'     => 'Text',
+      'formacion_id'     => 'ForeignKey',
+      'especialidad_id'  => 'ForeignKey',
       'rda_id'           => 'ForeignKey',
     );
   }

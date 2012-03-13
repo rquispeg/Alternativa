@@ -2180,6 +2180,10 @@ ClaFinanciamiento:
       local: id_financiamiento
       foreign: fin_des_escolar
       type: many
+    SdatSieCursoespecial:
+      local: id_financiamiento
+      foreign: fin_des_escolar
+      type: many
     SdatSieDocente:
       local: id_financiamiento
       foreign: financiamiento_id
@@ -2467,6 +2471,20 @@ ClaGrado:
       type: many
     SdatSieCurso_4:
       class: SdatSieCurso
+      local: nivel_id
+      foreign: nivel_id
+      type: many
+    SdatSieCursoespecial:
+      local: id_grado
+      foreign: grado_id
+      type: many
+    SdatSieCursoespecial_4:
+      class: SdatSieCursoespecial
+      local: ciclo_id
+      foreign: ciclo_id
+      type: many
+    SdatSieCursoespecial_5:
+      class: SdatSieCursoespecial
       local: nivel_id
       foreign: nivel_id
       type: many
@@ -3933,6 +3951,10 @@ ClaTurno:
       foreign: turno_id
       type: many
     SdatSieCurso:
+      local: id_turno
+      foreign: turno_id
+      type: many
+    SdatSieCursoespecial:
       local: id_turno
       foreign: turno_id
       type: many
@@ -7491,7 +7513,7 @@ DatAltCursooferta:
       local: curso_oferta_id
       foreign: curso_oferta_id
       type: many
-    SdatSieCursotecnica_9:
+    SdatSieCursotecnica_6:
       class: SdatSieCursotecnica
       local: cod_ue_id
       foreign: cod_ue_id
@@ -8799,6 +8821,10 @@ DatEspDiscapacidad:
       foreign: id_area_esp
       type: one
     DatEspCurso:
+      local: discapacidad_id
+      foreign: discapacidad_id
+      type: many
+    SdatSieCursoespecial:
       local: discapacidad_id
       foreign: discapacidad_id
       type: many
@@ -22337,16 +22363,30 @@ SdatRueUnidadEducativa:
       local: periodo_id
       foreign: periodo_id
       type: many
+    SdatSieCursoespecial:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: many
+    SdatSieCursoespecial_8:
+      class: SdatSieCursoespecial
+      local: sub_cea
+      foreign: sub_cea_id
+      type: many
+    SdatSieCursoespecial_9:
+      class: SdatSieCursoespecial
+      local: periodo_id
+      foreign: periodo_id
+      type: many
     SdatSieCursotecnica:
       local: cod_ue_id
       foreign: cod_ue_id
       type: many
-    SdatSieCursotecnica_6:
+    SdatSieCursotecnica_8:
       class: SdatSieCursotecnica
       local: sub_cea
       foreign: sub_cea_id
       type: many
-    SdatSieCursotecnica_7:
+    SdatSieCursotecnica_9:
       class: SdatSieCursotecnica
       local: periodo_id
       foreign: periodo_id
@@ -22800,6 +22840,160 @@ SdatSieCurso:
       local: turno_id
       foreign: turno_id
       type: many
+SdatSieCursoespecial:
+  connection: doctrine
+  tableName: sdat_sie_cursoespecial
+  columns:
+    cod_ue_id:
+      type: string(8)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    sub_cea_id:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: true
+      autoincrement: false
+    gestion_id:
+      type: integer(2)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    operativo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '1'
+      notnull: true
+      autoincrement: false
+    periodo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    nivel_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    ciclo_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    grado_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    paralelo:
+      type: string(2)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    discapacidad_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    multigrado:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    turno_id:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: false
+    desayuno_escolar:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: false
+      autoincrement: false
+    fin_des_escolar:
+      type: integer(1)
+      fixed: false
+      unsigned: false
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    nro_materias:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+    consolidado:
+      type: integer(1)
+      fixed: false
+      unsigned: true
+      primary: false
+      default: '0'
+      notnull: true
+      autoincrement: false
+  relations:
+    DatEspDiscapacidad:
+      local: discapacidad_id
+      foreign: discapacidad_id
+      type: one
+    ClaFinanciamiento:
+      local: fin_des_escolar
+      foreign: id_financiamiento
+      type: one
+    ClaGrado:
+      local: grado_id
+      foreign: id_grado
+      type: one
+    ClaGrado_4:
+      class: ClaGrado
+      local: ciclo_id
+      foreign: ciclo_id
+      type: one
+    ClaGrado_5:
+      class: ClaGrado
+      local: nivel_id
+      foreign: nivel_id
+      type: one
+    ClaTurno:
+      local: turno_id
+      foreign: id_turno
+      type: one
+    SdatRueUnidadEducativa:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: one
+    SdatRueUnidadEducativa_8:
+      class: SdatRueUnidadEducativa
+      local: sub_cea_id
+      foreign: sub_cea
+      type: one
+    SdatRueUnidadEducativa_9:
+      class: SdatRueUnidadEducativa
+      local: periodo_id
+      foreign: periodo_id
+      type: one
 SdatSieCursotecnica:
   connection: doctrine
   tableName: sdat_sie_cursotecnica
@@ -22924,28 +23118,28 @@ SdatSieCursotecnica:
       local: turno_id
       foreign: id_turno
       type: one
-    SdatRueUnidadEducativa:
-      local: cod_ue_id
-      foreign: cod_ue_id
-      type: one
-    SdatRueUnidadEducativa_6:
-      class: SdatRueUnidadEducativa
-      local: sub_cea_id
-      foreign: sub_cea
-      type: one
-    SdatRueUnidadEducativa_7:
-      class: SdatRueUnidadEducativa
-      local: periodo_id
-      foreign: periodo_id
-      type: one
     DatAltCursooferta:
       local: curso_oferta_id
       foreign: curso_oferta_id
       type: one
-    DatAltCursooferta_9:
+    DatAltCursooferta_6:
       class: DatAltCursooferta
       local: cod_ue_id
       foreign: cod_ue_id
+      type: one
+    SdatRueUnidadEducativa:
+      local: cod_ue_id
+      foreign: cod_ue_id
+      type: one
+    SdatRueUnidadEducativa_8:
+      class: SdatRueUnidadEducativa
+      local: sub_cea_id
+      foreign: sub_cea
+      type: one
+    SdatRueUnidadEducativa_9:
+      class: SdatRueUnidadEducativa
+      local: periodo_id
+      foreign: periodo_id
       type: one
     SdatRdeInscripcionTecnica:
       local: cod_ue_id

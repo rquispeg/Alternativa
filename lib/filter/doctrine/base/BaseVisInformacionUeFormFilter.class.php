@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVisInformacionUeFormFilter extends BaseFormFilterDoctrine
@@ -13,39 +13,39 @@ abstract class BaseVisInformacionUeFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'cod_ue'               => new sfWidgetFormFilterInput(),
-      'desc_ue'              => new sfWidgetFormFilterInput(),
-      'cod_le_id'            => new sfWidgetFormFilterInput(),
+      'cod_ue'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_ue'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_le_id'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_dependencia'     => new sfWidgetFormFilterInput(),
-      'gestion_id'           => new sfWidgetFormFilterInput(),
-      'operativo_id'         => new sfWidgetFormFilterInput(),
-      'periodo_id'           => new sfWidgetFormFilterInput(),
+      'gestion_id'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'operativo_id'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'periodo_id'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'telefono1'            => new sfWidgetFormFilterInput(),
       'telefono2'            => new sfWidgetFormFilterInput(),
       'referencia_telefono2' => new sfWidgetFormFilterInput(),
       'fax'                  => new sfWidgetFormFilterInput(),
       'email'                => new sfWidgetFormFilterInput(),
       'casilla'              => new sfWidgetFormFilterInput(),
-      'ci_director'          => new sfWidgetFormFilterInput(),
-      'director'             => new sfWidgetFormFilterInput(),
+      'ci_director'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'director'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'item_director'        => new sfWidgetFormFilterInput(),
-      'cod_cerrada_id'       => new sfWidgetFormFilterInput(),
-      'turno_id'             => new sfWidgetFormFilterInput(),
-      'desc_localidad'       => new sfWidgetFormFilterInput(),
-      'id_localidad'         => new sfWidgetFormFilterInput(),
-      'id_canton'            => new sfWidgetFormFilterInput(),
-      'desc_canton'          => new sfWidgetFormFilterInput(),
-      'id_seccion'           => new sfWidgetFormFilterInput(),
-      'desc_seccion'         => new sfWidgetFormFilterInput(),
-      'id_provincia'         => new sfWidgetFormFilterInput(),
-      'desc_provincia'       => new sfWidgetFormFilterInput(),
-      'id_departamento'      => new sfWidgetFormFilterInput(),
-      'desc_departamento'    => new sfWidgetFormFilterInput(),
-      'cod_distrito_id'      => new sfWidgetFormFilterInput(),
-      'distrito'             => new sfWidgetFormFilterInput(),
+      'cod_cerrada_id'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'turno_id'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_localidad'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_localidad'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_canton'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_canton'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_seccion'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_seccion'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_provincia'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_provincia'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_departamento'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_departamento'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_distrito_id'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'distrito'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'zona'                 => new sfWidgetFormFilterInput(),
       'direccion'            => new sfWidgetFormFilterInput(),
-      'tipo_area'            => new sfWidgetFormFilterInput(),
+      'tipo_area'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_abrv'            => new sfWidgetFormFilterInput(),
     ));
 

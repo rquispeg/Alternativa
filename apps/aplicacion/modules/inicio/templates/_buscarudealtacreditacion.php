@@ -20,7 +20,7 @@
                 <td>
                     <input name="dat_rde_estudiante[codigo_rude]" id="dat_rde_estudiante_codigo_rude" type="text" size="28" maxlength="18" style="font-family: arial;" />
                 </td>
-                <td>Modalidad de Educaci&oacute;n :</td>
+                <td>&Aacute;rea de Educaci&oacute;n :</td>
                 <td>
                     <?php echo $acreditaciones['acreditacion_id']->render(); ?>	
                 </td>                

@@ -1,11 +1,20 @@
 <?php use_helper('ysJQueryRevolutions')?>
 <?php use_helper('ysJQueryUIDialog')?>
-<select id="curso_oferta_id" style="font-family: Arial;font-size: 12px;width: 400px;" name="dat_rde_estudiante[curso_oferta_id]">
-    <option value="-999">[Seleccionar]</option>
-    <?php foreach($especialidades as $especialidad): ?>
-        <option value="<?php echo $especialidad->getCursoOfertaId(); ?>"><?php echo $especialidad->getCursoOfertaId().' - '.Doctrine::getTable('ClaCursoOferta')->find($especialidad->getCursoOfertaId())->getDescCursoOferta(); ?></option>
-    <?php endforeach; ?>
-</select>
+<?php if($acreditacion == '22'): ?>
+	<select id="curso_oferta_id" style="font-family: Arial;font-size: 12px;width: 400px;" name="dat_rde_estudiante[curso_oferta_id]">
+		<option value="-999">[Seleccionar]</option>
+		<?php foreach($especialidades as $especialidad): ?>		
+			<option value="<?php echo $especialidad->getCursoOfertaId(); ?>"><?php echo $especialidad->getCursoOfertaId().' - '.Doctrine::getTable('ClaCursoOferta')->find($especialidad->getCursoOfertaId())->getDescCursoOferta(); ?></option>
+		<?php endforeach; ?>
+	</select>
+<?php elseif($acreditacion == '23'):?>
+	<select id="curso_oferta_id" style="font-family: Arial;font-size: 12px;width: 400px;" name="dat_rde_estudiante[curso_oferta_id]">
+		<option value="-999">[Seleccionar]</option>
+		<?php foreach($especialidades as $especialidad): ?>		
+			<option value="<?php echo $especialidad->getDiscapacidadId(); ?>"><?php echo $especialidad->getDiscapacidadId().' - '.Doctrine::getTable('DatEspDiscapacidad')->find($especialidad->getDiscapacidadId())->getDiscapacidad(); ?></option>
+		<?php endforeach; ?>
+	</select>
+<?php endif; ?>
 <?php echo jquery_ajax(array(
     'listener' => array(
         'selector' => '#curso_oferta_id',

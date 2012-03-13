@@ -3,7 +3,7 @@
 <select id="nivel_id" style="font-family: Arial;font-size: 12px;width: 350px;" name="dat_rde_estudiante[nivel_id]">
     <option value="-999">[Seleccionar]</option>
     <?php foreach($ciclos as $ciclo): ?>
-        <option value="<?php echo $ciclo->getCicloId(); ?>"><?php echo $ciclo->getCicloId().' - '.Doctrine::getTable('ClaCiclo')->find(array('15',$ciclo->getCicloId()))->getDescCiclo(); ?></option>
+        <option value="<?php echo $ciclo->getCicloId(); ?>"><?php echo $ciclo->getCicloId().' - '.Doctrine::getTable('ClaCiclo')->find(array($modalidad,$ciclo->getCicloId()))->getDescCiclo(); ?></option>
     <?php endforeach; ?>
 </select>
 <?php echo jquery_ajax(array(

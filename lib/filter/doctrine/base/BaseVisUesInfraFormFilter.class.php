@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVisUesInfraFormFilter extends BaseFormFilterDoctrine
@@ -13,11 +13,11 @@ abstract class BaseVisUesInfraFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'gestion_id'      => new sfWidgetFormFilterInput(),
-      'cod_le'          => new sfWidgetFormFilterInput(),
-      'cod_ue'          => new sfWidgetFormFilterInput(),
-      'desc_ue'         => new sfWidgetFormFilterInput(),
-      'departamento_id' => new sfWidgetFormFilterInput(),
+      'gestion_id'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_le'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_ue'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_ue'         => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'departamento_id' => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(

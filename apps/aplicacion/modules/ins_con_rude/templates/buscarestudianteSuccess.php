@@ -12,5 +12,7 @@
 			<?php include_partial('ins_con_rude/datosunidadeducativahumanistica',array ('subcentros' => $subcentros,'periodo' => $periodo)); ?>
 		<?php elseif($acreditacion == '22'):?>
 			<?php include_partial('ins_con_rude/datosunidadeducativatecnica',array ('subcentros' => $subcentros,'periodo' => $periodo)); ?>
+		<?php elseif($acreditacion == '23'):?>			
+			<?php include_partial('ins_con_rude/datosunidadeducativaespecial',array ('subcentros' => $subcentros,'periodo' => $periodo)); ?>
 		<?php endif;?>
 <?php endif; ?>

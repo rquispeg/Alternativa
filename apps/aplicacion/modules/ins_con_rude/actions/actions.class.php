@@ -27,12 +27,17 @@ class ins_con_rudeActions extends sfActions
   
   public function executeNivel(sfWebRequest $request)
   {	
+	$this->modalidad = $request->getParameter('modalidad_id');
 	if($request->getParameter('subsistema_id') == '21'){
 		$this->ciclos = doctrine::getTable('SdatSieCurso')->getNiveles($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'));	
 	}
 	elseif($request->getParameter('subsistema_id') == '22')
 	{
 		$this->ciclos = doctrine::getTable('SdatSieCursotecnica')->getNiveles($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'));	
+	}
+	elseif($request->getParameter('subsistema_id') == '23')
+	{		
+		$this->ciclos = doctrine::getTable('SdatSieCursoespecial')->getNiveles($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'));			
 	}
   }
   
@@ -47,12 +52,20 @@ class ins_con_rudeActions extends sfActions
 	elseif($request->getParameter('subsistema_id') == '22')
 	{
 		$this->grados = doctrine::getTable('SdatSieCursotecnica')->getGrados($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'));
+	}elseif($request->getParameter('subsistema_id') == '23')
+	{
+		$this->grados = doctrine::getTable('SdatSieCursoespecial')->getGrados($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'));
 	}
   }
   
   public function executeEspecialidad(sfWebRequest $request)
-  {
-    $this->especialidades = doctrine::getTable('SdatSieCursotecnica')->getEspecialidades($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'));
+  {	
+	$this->acreditacion = $request->getParameter('subsistema_id');
+	if($request->getParameter('subsistema_id') == '22'){
+		$this->especialidades = doctrine::getTable('SdatSieCursotecnica')->getEspecialidades($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'));
+	}elseif($request->getParameter('subsistema_id') == '23'){
+		$this->especialidades = doctrine::getTable('SdatSieCursoespecial')->getDiscapacidad($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'));	
+	}
   }
   
   public function executeParalelo(sfWebRequest $request)
@@ -64,14 +77,19 @@ class ins_con_rudeActions extends sfActions
 	elseif($request->getParameter('subsistema_id') == '22'){		
 		$this->paralelos = doctrine::gettable('SdatSieCursotecnica')->getParalelo($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'),$request->getParameter('curso_oferta_id'));
 	}
+	elseif($request->getParameter('subsistema_id') == '23'){		
+		$this->paralelos = doctrine::gettable('SdatSieCursoespecial')->getParalelo($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'),$request->getParameter('curso_oferta_id'));
+	}
   }
   
-  public function executeTurno(sfWebRequest $request){
+  public function executeTurno(sfWebRequest $request){	  
       //die($request->getParameter('ue_id').'/'.$this->getUser()->getAttribute('GESTION').'/'.$request->getParameter('periodo_id').'/'.$request->getParameter('subcea_id').'/'.$request->getParameter('nivel_id').'/'.$request->getParameter('grado_id').'/'.$request->getParameter('paralelo'));	  	  
 	  if($request->getParameter('subsistema_id') == '21'){
 		$this->turnos = doctrine::getTable('SdatSieCurso')->getTurno($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'),$request->getParameter('paralelo'));
 	  }elseif($request->getParameter('subsistema_id') == '22'){		
 		$this->turnos = doctrine::getTable('SdatSieCursotecnica')->getTurno($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'),$request->getParameter('curso_oferta_id'),$request->getParameter('paralelo'));	  
+	  }elseif($request->getParameter('subsistema_id') == '23'){		
+		$this->turnos = doctrine::getTable('SdatSieCursoespecial')->getTurno($request->getParameter('ue_id'),sfConfig::get('app_gestion'),$request->getParameter('periodo_id'),$request->getParameter('subcea_id'),$request->getParameter('modalidad_id'),$request->getParameter('nivel_id'),$request->getParameter('grado_id'),$request->getParameter('curso_oferta_id'),$request->getParameter('paralelo'));	  
 	  }
   } 
 
@@ -87,8 +105,8 @@ class ins_con_rudeActions extends sfActions
     $this->a = $request->getParameter('dat_rde_estudiante'); 
 	
 	$this->gestion = sfConfig::get('app_gestion');        
-	$this->periodo = sfConfig::get('app_periodo');
-	$this->modalidad = sfConfig::get('app_modalidad');
+	$this->periodo = $this->getUser()->getAttribute('PERIODO');
+	$this->modalidad = $this->getUser()->getAttribute('MODALIDAD');	
 	
 	// Buscando Unidad Educativa
 	$buscar_ue = Doctrine::getTable('RelUsuarioUe')->getCodUE($this->getUser()->getAttribute('USUARIO_ID'));
@@ -179,7 +197,7 @@ class ins_con_rudeActions extends sfActions
 	public function executeRegistrarinscripciontecnica(sfWebRequest $request){
       $conn = Doctrine_Manager::connection();
       $conn->beginTransaction();
-      //try {
+      try {
           ///Obtener la matricula de la unidad
           $matricula = Doctrine::getTable('SeqInscripcionUe')->find(array(sfConfig::get('app_gestion'),$request->getParameter('ue_id')));
           $mat = (int)$matricula->getNumeroMatricula()+1;
@@ -208,13 +226,13 @@ class ins_con_rudeActions extends sfActions
            $extemporaneo->save();
 
           $conn->commit();
-          $this->getUser()->setFlash('notice',"LA INSCRIPCION DEL ESTUDIANTE EXTEMPORANEO CON RUDE ".$request->getParameter('rude')." SE REALIZADO CORRECTAMENTE");
+          $this->getUser()->setFlash('notice',"LA INSCRIPCION DEL ESTUDIANTE  CON RUDE ".$request->getParameter('rude')." SE REALIZADO CORRECTAMENTE");
           $this ->redirect('ins_con_rude/index');
-      /*} catch (Doctrine_Exception $e) {
+      } catch (Doctrine_Exception $e) {
           $conn->rollback();
           $this->getUser()->setFlash('notice_error',"ERROR EN LA INSCRIPCION DEL ESTUDIANTE EXTEMPORANEO");
           $this->redirect('ins_con_rude/index');
-      }*/
+      }
 
 	}  
 }

@@ -9,5 +9,7 @@
 	<?php include_partial('cea_crear_cursos/datosunidadeducativahumanistica',array ('subcentros' => $subcentros,'niveles'=>$niveles)); ?>
 <?php elseif($acreditacion == '22'): ?>
 	<?php include_partial('cea_crear_cursos/datosunidadeducativatecnica',array ('subcentros' => $subcentros,'niveles'=>$niveles,'especialidades'=>$especialidades)); ?>
+<?php elseif($acreditacion == '23'): ?>
+	<?php include_partial('cea_crear_cursos/datosunidadeducativaespecial',array ('subcentros' => $subcentros,'niveles'=>$niveles,'discapacidades'=>$discapacidades)); ?>	
 <?php endif; ?>
 

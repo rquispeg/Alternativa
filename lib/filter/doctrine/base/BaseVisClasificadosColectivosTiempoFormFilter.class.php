@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVisClasificadosColectivosTiempoFormFilter extends BaseFormFilterDoctrine
@@ -13,23 +13,23 @@ abstract class BaseVisClasificadosColectivosTiempoFormFilter extends BaseFormFil
   public function setup()
   {
     $this->setWidgets(array(
-      'id'                 => new sfWidgetFormFilterInput(),
-      'cod_ue'             => new sfWidgetFormFilterInput(),
-      'desc_ue'            => new sfWidgetFormFilterInput(),
-      'posicion'           => new sfWidgetFormFilterInput(),
+      'id'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_ue'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_ue'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'posicion'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'genero_id'          => new sfWidgetFormFilterInput(),
-      'desc_disciplina'    => new sfWidgetFormFilterInput(),
-      'desc_prueba'        => new sfWidgetFormFilterInput(),
+      'desc_disciplina'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_prueba'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'circunscripcion_id' => new sfWidgetFormFilterInput(),
-      'tipo_id'            => new sfWidgetFormFilterInput(),
-      'cod_distrito'       => new sfWidgetFormFilterInput(),
-      'distrito'           => new sfWidgetFormFilterInput(),
-      'codigo_rude'        => new sfWidgetFormFilterInput(),
+      'tipo_id'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_distrito'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'distrito'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'codigo_rude'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'carnet_identidad'   => new sfWidgetFormFilterInput(),
       'paterno'            => new sfWidgetFormFilterInput(),
       'materno'            => new sfWidgetFormFilterInput(),
       'nombre'             => new sfWidgetFormFilterInput(),
-      'fecha_nacimiento'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
+      'fecha_nacimiento'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'tiempo'             => new sfWidgetFormFilterInput(),
     ));
 

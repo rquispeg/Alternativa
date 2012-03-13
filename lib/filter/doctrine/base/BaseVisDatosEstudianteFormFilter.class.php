@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVisDatosEstudianteFormFilter extends BaseFormFilterDoctrine
@@ -13,32 +13,34 @@ abstract class BaseVisDatosEstudianteFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'codigo_rude'             => new sfWidgetFormFilterInput(),
+      'codigo_rude'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'carnet_identidad'        => new sfWidgetFormFilterInput(),
       'paterno'                 => new sfWidgetFormFilterInput(),
       'materno'                 => new sfWidgetFormFilterInput(),
       'nombre'                  => new sfWidgetFormFilterInput(),
-      'fecha_nacimiento'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
-      'genero'                  => new sfWidgetFormFilterInput(),
+      'sub_cea_id'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'periodo_id'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'fecha_nacimiento'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'genero'                  => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'localidad_nac'           => new sfWidgetFormFilterInput(),
       'num_matricula'           => new sfWidgetFormFilterInput(),
-      'cod_ue_id'               => new sfWidgetFormFilterInput(),
-      'gestion_id'              => new sfWidgetFormFilterInput(),
-      'nivel_id'                => new sfWidgetFormFilterInput(),
-      'ciclo_id'                => new sfWidgetFormFilterInput(),
-      'grado_id'                => new sfWidgetFormFilterInput(),
-      'paralelo'                => new sfWidgetFormFilterInput(),
-      'estado_matricula_fin_id' => new sfWidgetFormFilterInput(),
-      'cod_ue_procedencia_id'   => new sfWidgetFormFilterInput(),
-      'desc_turno'              => new sfWidgetFormFilterInput(),
+      'cod_ue_id'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'gestion_id'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'nivel_id'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'ciclo_id'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'grado_id'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'paralelo'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'estado_matricula_fin_id' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_ue_procedencia_id'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_turno'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_abrv'               => new sfWidgetFormFilterInput(),
-      'desc_provincia'          => new sfWidgetFormFilterInput(),
-      'desc_departamento'       => new sfWidgetFormFilterInput(),
-      'turno_id'                => new sfWidgetFormFilterInput(),
-      'desc_abreviada'          => new sfWidgetFormFilterInput(),
-      'id_nivel'                => new sfWidgetFormFilterInput(),
+      'desc_provincia'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_departamento'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'turno_id'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_abreviada'          => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'id_nivel'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_nivel'              => new sfWidgetFormFilterInput(),
-      'desc_grado'              => new sfWidgetFormFilterInput(),
+      'desc_grado'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
@@ -47,6 +49,8 @@ abstract class BaseVisDatosEstudianteFormFilter extends BaseFormFilterDoctrine
       'paterno'                 => new sfValidatorPass(array('required' => false)),
       'materno'                 => new sfValidatorPass(array('required' => false)),
       'nombre'                  => new sfValidatorPass(array('required' => false)),
+      'sub_cea_id'              => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'periodo_id'              => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'fecha_nacimiento'        => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDateTime(array('required' => false)))),
       'genero'                  => new sfValidatorPass(array('required' => false)),
       'localidad_nac'           => new sfValidatorPass(array('required' => false)),
@@ -93,6 +97,8 @@ abstract class BaseVisDatosEstudianteFormFilter extends BaseFormFilterDoctrine
       'paterno'                 => 'Text',
       'materno'                 => 'Text',
       'nombre'                  => 'Text',
+      'sub_cea_id'              => 'Number',
+      'periodo_id'              => 'Number',
       'fecha_nacimiento'        => 'Date',
       'genero'                  => 'Text',
       'localidad_nac'           => 'Text',

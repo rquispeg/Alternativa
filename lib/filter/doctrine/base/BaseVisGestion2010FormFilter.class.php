@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVisGestion2010FormFilter extends BaseFormFilterDoctrine
@@ -13,32 +13,32 @@ abstract class BaseVisGestion2010FormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id_inscripcion'             => new sfWidgetFormFilterInput(),
-      'gestion_id'                 => new sfWidgetFormFilterInput(),
-      'cod_distrito'               => new sfWidgetFormFilterInput(),
-      'distrito'                   => new sfWidgetFormFilterInput(),
-      'cod_ue'                     => new sfWidgetFormFilterInput(),
-      'desc_ue'                    => new sfWidgetFormFilterInput(),
-      'codigo_rude'                => new sfWidgetFormFilterInput(),
+      'id_inscripcion'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'gestion_id'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_distrito'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'distrito'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_ue'                     => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_ue'                    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'codigo_rude'                => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'carnet_identidad'           => new sfWidgetFormFilterInput(),
       'paterno'                    => new sfWidgetFormFilterInput(),
       'materno'                    => new sfWidgetFormFilterInput(),
       'nombre'                     => new sfWidgetFormFilterInput(),
-      'fecha_nacimiento'           => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
-      'genero'                     => new sfWidgetFormFilterInput(),
-      'nivel_id'                   => new sfWidgetFormFilterInput(),
+      'fecha_nacimiento'           => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'genero'                     => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'nivel_id'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_nivel'                 => new sfWidgetFormFilterInput(),
-      'id_grado'                   => new sfWidgetFormFilterInput(),
-      'desc_grado'                 => new sfWidgetFormFilterInput(),
-      'paralelo'                   => new sfWidgetFormFilterInput(),
+      'id_grado'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_grado'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'paralelo'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_abrv'                  => new sfWidgetFormFilterInput(),
-      'estado_matricula_inicio_id' => new sfWidgetFormFilterInput(),
+      'estado_matricula_inicio_id' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'matricula_inicio'           => new sfWidgetFormFilterInput(),
-      'matricula_fin'              => new sfWidgetFormFilterInput(),
+      'matricula_fin'              => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_estado_matricula'      => new sfWidgetFormFilterInput(),
-      'cod_org_curr'               => new sfWidgetFormFilterInput(),
-      'desc_modalidad'             => new sfWidgetFormFilterInput(),
-      'cod_dependencia'            => new sfWidgetFormFilterInput(),
+      'cod_org_curr'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'desc_modalidad'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_dependencia'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'desc_dependencia'           => new sfWidgetFormFilterInput(),
     ));
 

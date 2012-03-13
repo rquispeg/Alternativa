@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseCtrSlnFormalFormFilter extends BaseFormFilterDoctrine
@@ -87,7 +87,6 @@ abstract class BaseCtrSlnFormalFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id_sln_formal'               => 'Number',
       'gestion_id'                  => 'ForeignKey',
       'cod_ue_id'                   => 'ForeignKey',
       'curso_oferta_id'             => 'ForeignKey',
@@ -114,6 +113,7 @@ abstract class BaseCtrSlnFormalFormFilter extends BaseFormFilterDoctrine
       'fecha_actualizacion'         => 'Date',
       'usuario_id'                  => 'Number',
       'fecha_cambio'                => 'Date',
+      'id_sln_formal'               => 'Number',
     );
   }
 }

@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseDatSlnCursoOfertaFormFilter extends BaseFormFilterDoctrine
@@ -22,7 +22,8 @@ abstract class BaseDatSlnCursoOfertaFormFilter extends BaseFormFilterDoctrine
       'paralelo'          => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatSieCurso_9'), 'add_empty' => true)),
       'turno_id'          => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatSieCurso_10'), 'add_empty' => true)),
       'cod_asignatura_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatSlnEstudios_13'), 'add_empty' => true)),
-      'docente_id'        => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'docente_id'        => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('DatSieDocente'), 'add_empty' => true)),
+      'horas'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
@@ -35,7 +36,8 @@ abstract class BaseDatSlnCursoOfertaFormFilter extends BaseFormFilterDoctrine
       'paralelo'          => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatSieCurso_9'), 'column' => 'cod_ue_id')),
       'turno_id'          => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatSieCurso_10'), 'column' => 'cod_ue_id')),
       'cod_asignatura_id' => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatSlnEstudios_13'), 'column' => 'cod_ue_id')),
-      'docente_id'        => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'docente_id'        => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('DatSieDocente'), 'column' => 'ci_docente_id')),
+      'horas'             => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
     ));
 
     $this->widgetSchema->setNameFormat('dat_sln_curso_oferta_filters[%s]');
@@ -67,7 +69,8 @@ abstract class BaseDatSlnCursoOfertaFormFilter extends BaseFormFilterDoctrine
       'paralelo'          => 'ForeignKey',
       'turno_id'          => 'ForeignKey',
       'cod_asignatura_id' => 'ForeignKey',
-      'docente_id'        => 'Number',
+      'docente_id'        => 'ForeignKey',
+      'horas'             => 'Number',
     );
   }
 }

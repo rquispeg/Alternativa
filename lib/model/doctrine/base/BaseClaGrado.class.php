@@ -37,6 +37,9 @@ Doctrine_Manager::getInstance()->bindComponent('ClaGrado', 'doctrine');
  * @property Doctrine_Collection $SdatSieCurso
  * @property Doctrine_Collection $SdatSieCurso_3
  * @property Doctrine_Collection $SdatSieCurso_4
+ * @property Doctrine_Collection $SdatSieCursoespecial
+ * @property Doctrine_Collection $SdatSieCursoespecial_4
+ * @property Doctrine_Collection $SdatSieCursoespecial_5
  * @property Doctrine_Collection $SdatSieCursotecnica
  * @property Doctrine_Collection $SdatSieCursotecnica_2
  * @property Doctrine_Collection $SdatSieCursotecnica_3
@@ -71,6 +74,9 @@ Doctrine_Manager::getInstance()->bindComponent('ClaGrado', 'doctrine');
  * @method Doctrine_Collection getSdatSieCurso()             Returns the current record's "SdatSieCurso" collection
  * @method Doctrine_Collection getSdatSieCurso3()            Returns the current record's "SdatSieCurso_3" collection
  * @method Doctrine_Collection getSdatSieCurso4()            Returns the current record's "SdatSieCurso_4" collection
+ * @method Doctrine_Collection getSdatSieCursoespecial()     Returns the current record's "SdatSieCursoespecial" collection
+ * @method Doctrine_Collection getSdatSieCursoespecial4()    Returns the current record's "SdatSieCursoespecial_4" collection
+ * @method Doctrine_Collection getSdatSieCursoespecial5()    Returns the current record's "SdatSieCursoespecial_5" collection
  * @method Doctrine_Collection getSdatSieCursotecnica()      Returns the current record's "SdatSieCursotecnica" collection
  * @method Doctrine_Collection getSdatSieCursotecnica2()     Returns the current record's "SdatSieCursotecnica_2" collection
  * @method Doctrine_Collection getSdatSieCursotecnica3()     Returns the current record's "SdatSieCursotecnica_3" collection
@@ -104,6 +110,9 @@ Doctrine_Manager::getInstance()->bindComponent('ClaGrado', 'doctrine');
  * @method ClaGrado            setSdatSieCurso()             Sets the current record's "SdatSieCurso" collection
  * @method ClaGrado            setSdatSieCurso3()            Sets the current record's "SdatSieCurso_3" collection
  * @method ClaGrado            setSdatSieCurso4()            Sets the current record's "SdatSieCurso_4" collection
+ * @method ClaGrado            setSdatSieCursoespecial()     Sets the current record's "SdatSieCursoespecial" collection
+ * @method ClaGrado            setSdatSieCursoespecial4()    Sets the current record's "SdatSieCursoespecial_4" collection
+ * @method ClaGrado            setSdatSieCursoespecial5()    Sets the current record's "SdatSieCursoespecial_5" collection
  * @method ClaGrado            setSdatSieCursotecnica()      Sets the current record's "SdatSieCursotecnica" collection
  * @method ClaGrado            setSdatSieCursotecnica2()     Sets the current record's "SdatSieCursotecnica_2" collection
  * @method ClaGrado            setSdatSieCursotecnica3()     Sets the current record's "SdatSieCursotecnica_3" collection
@@ -272,6 +281,18 @@ abstract class BaseClaGrado extends sfDoctrineRecord
              'foreign' => 'ciclo_id'));
 
         $this->hasMany('SdatSieCurso as SdatSieCurso_4', array(
+             'local' => 'nivel_id',
+             'foreign' => 'nivel_id'));
+
+        $this->hasMany('SdatSieCursoespecial', array(
+             'local' => 'id_grado',
+             'foreign' => 'grado_id'));
+
+        $this->hasMany('SdatSieCursoespecial as SdatSieCursoespecial_4', array(
+             'local' => 'ciclo_id',
+             'foreign' => 'ciclo_id'));
+
+        $this->hasMany('SdatSieCursoespecial as SdatSieCursoespecial_5', array(
              'local' => 'nivel_id',
              'foreign' => 'nivel_id'));
 

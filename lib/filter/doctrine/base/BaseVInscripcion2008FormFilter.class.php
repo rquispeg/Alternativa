@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseVInscripcion2008FormFilter extends BaseFormFilterDoctrine
@@ -13,23 +13,23 @@ abstract class BaseVInscripcion2008FormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id_inscripcion'             => new sfWidgetFormFilterInput(),
-      'gestion_id'                 => new sfWidgetFormFilterInput(),
-      'codigo_rude_id'             => new sfWidgetFormFilterInput(),
+      'id_inscripcion'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'gestion_id'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'codigo_rude_id'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'num_matricula'              => new sfWidgetFormFilterInput(),
-      'cod_ue_id'                  => new sfWidgetFormFilterInput(),
-      'periodo_id'                 => new sfWidgetFormFilterInput(),
-      'operativo_id'               => new sfWidgetFormFilterInput(),
-      'sub_cea_id'                 => new sfWidgetFormFilterInput(),
-      'nivel_id'                   => new sfWidgetFormFilterInput(),
-      'grado_id'                   => new sfWidgetFormFilterInput(),
-      'ciclo_id'                   => new sfWidgetFormFilterInput(),
-      'paralelo'                   => new sfWidgetFormFilterInput(),
-      'turno_id'                   => new sfWidgetFormFilterInput(),
-      'estado_matricula_inicio_id' => new sfWidgetFormFilterInput(),
-      'estado_matricula_fin_id'    => new sfWidgetFormFilterInput(),
-      'cod_ue_procedencia_id'      => new sfWidgetFormFilterInput(),
-      'observacion_id'             => new sfWidgetFormFilterInput(),
+      'cod_ue_id'                  => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'periodo_id'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'operativo_id'               => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'sub_cea_id'                 => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'nivel_id'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'grado_id'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'ciclo_id'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'paralelo'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'turno_id'                   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'estado_matricula_inicio_id' => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'estado_matricula_fin_id'    => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_ue_procedencia_id'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'observacion_id'             => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'observacion'                => new sfWidgetFormFilterInput(),
       'fecha_inscripcion'          => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'apreciacion_final'          => new sfWidgetFormFilterInput(),

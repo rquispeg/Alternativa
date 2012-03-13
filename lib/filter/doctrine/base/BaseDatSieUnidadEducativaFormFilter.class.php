@@ -5,7 +5,7 @@
  *
  * @package    alternativa
  * @subpackage filter
- * @author     Ing. Ivan Callapa Quiroz
+ * @author     Lic. Remberto Quispe Gutierrez
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 24171 2009-11-19 16:37:50Z Kris.Wallsmith $
  */
 abstract class BaseDatSieUnidadEducativaFormFilter extends BaseFormFilterDoctrine
@@ -27,7 +27,7 @@ abstract class BaseDatSieUnidadEducativaFormFilter extends BaseFormFilterDoctrin
       'cod_cerrada_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaCerrada'), 'add_empty' => true)),
       'turno_id'             => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ClaTurno'), 'add_empty' => true)),
       'fecha_consolidacion'  => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
-      'cod_le_id'            => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'cod_le_id'            => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
